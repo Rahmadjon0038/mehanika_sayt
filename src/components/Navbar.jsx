@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { bolimlar } from "../utils/sidebarData";
 import { NavLink } from "react-router-dom";
-import { mavzuData } from "../root/mavzuData";
+import {mavzuData} from '../root/MavzuData'
 import { FaWindowClose } from "react-icons/fa";
 function Navbar() {
   const [open, setOpen] = useState(false);
