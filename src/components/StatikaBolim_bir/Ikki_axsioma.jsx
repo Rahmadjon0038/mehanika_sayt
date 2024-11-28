@@ -8,7 +8,7 @@ import image1_5 from '../../assets/image1_5.png'
 import image1_6 from '../../assets/image1_6.png'
 import Navbar from "../Navbar";
 
-function AxiomsSection() {
+function Ikki_axsioma() {
     return (
         <>
             <Navbar />
@@ -132,4 +132,4 @@ function AxiomsSection() {
     );
 }
 
-export default AxiomsSection;
+export default Ikki_axsioma;

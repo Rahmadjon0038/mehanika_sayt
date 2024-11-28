@@ -4,7 +4,7 @@ import "katex/dist/katex.min.css";
 import image1 from '../../assets/image1.png';
 import Navbar from "../Navbar";
 
-function MechanicsComponent() {
+function Bir_KuchKuchlarsistemasiTengsiretuvchikuch() {
     return (
         <>
             <Navbar />
@@ -95,4 +95,4 @@ function MechanicsComponent() {
     );
 }
 
-export default MechanicsComponent;
+export default Bir_KuchKuchlarsistemasiTengsiretuvchikuch;

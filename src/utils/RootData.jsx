@@ -1,6 +1,6 @@
 import React from 'react'
 import Bir_KuchKuchlarsistemasiTengsiretuvchikuch from '../components/StatikaBolim_bir/Bir_KuchKuchlarsistemasiTengsiretuvchikuch'
-import AxiomsSection from '../components/StatikaBolim_bir/Ikki_axsioma'
+import Ikki_axsioma from '../components/StatikaBolim_bir/Ikki_axsioma'
 // import ForcesIntersection from '../components/StatikaBolim_bir/Uch_uchKuchMuozanati'
 // import ProjectionAndProblems from '../components/StatikaBolim_bir/Tort_KuchningProyeksiyasi'
 // import ForceMoment from '../components/StatikaBolim_bir/Besh_NuqtagaNisbatan_kuchM'
@@ -20,7 +20,7 @@ export const rootdata = [
     },
     {
         id:2,
-        name:<AxiomsSection/>,
+        name:<Ikki_axsioma/>,
         path:"/AxiomsSection"
     },
     // // {
