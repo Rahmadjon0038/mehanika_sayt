@@ -1,7 +1,7 @@
 import React from 'react'
 import Bir_KuchKuchlarsistemasiTengsiretuvchikuch from '../components/StatikaBolim_bir/Bir_KuchKuchlarsistemasiTengsiretuvchikuch'
 import Ikki_axsioma from '../components/StatikaBolim_bir/Ikki_axsioma'
-// import ForcesIntersection from '../components/StatikaBolim_bir/Uch_uchKuchMuozanati'
+import Uch_uchKuchMuozanati from '../components/StatikaBolim_bir/Uch_uchKuchMuozanati'
 // import ProjectionAndProblems from '../components/StatikaBolim_bir/Tort_KuchningProyeksiyasi'
 // import ForceMoment from '../components/StatikaBolim_bir/Besh_NuqtagaNisbatan_kuchM'
 // import MomentVector from '../components/StatikaBolim_bir/Ollti_NuqtagaNisKuchM'
@@ -23,11 +23,11 @@ export const rootdata = [
         name:<Ikki_axsioma/>,
         path:"/AxiomsSection"
     },
-    // // {
-    //     id:3,
-    //     name:<ForcesIntersection/>,
-    //     path:"/ForcesIntersection"
-    // },
+     {
+        id:3,
+        name:<Uch_uchKuchMuozanati/>,
+        path:"/ForcesIntersection"
+    },
     // {
     //     id:4,
     //     name:<ProjectionAndProblems/>,
