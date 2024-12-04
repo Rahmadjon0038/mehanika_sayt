@@ -30,36 +30,36 @@ export const mavzuData = [
         mavzu: " Nuqtaga nisbatan kuch momenti",
         path:"/Besh_NuqtagaNisbatan_kuchM"
     },
-    // {
-    //     id: 6,
-    //     name: "1.6-dars",
-    //     mavzu: "Nuqtaga nisbatan kuch momentining vektori",
-    //     path:"/MomentVector"
-    // },
-    // {
-    //     id: 7,
-    //     name: "1.7-dars",
-    //     mavzu: "Varinion teoremasi",
-    //     path:"/VarignonTheorem"
-    // },
-    // {
-    //     id: 8,
-    //     name: "1.8-dars",
-    //     mavzu: "O’qqa nisbatan kuch mоmenti",
-    //     path:"/ForceMomentOnAxis"
-    // },
-    // {
-    //     id: 9,
-    //     name: "1.9-dars",
-    //     mavzu: "Juft kuch.  Juft momenti",
-    //     path:"/CoupleMoment"
-    // },
-    // {
-    //     id: 10,
-    //     name: "1.10-dars",
-    //     mavzu: "Bоg’lanish turlari va bоg’lanish reaksiyа kuchlari",
-    //     path:"/ConnectionsAndReactions"
-    // },
+    {
+        id: 6,
+        name: "1.6-dars",
+        mavzu: "Nuqtaga nisbatan kuch momentining vektori",
+        path:"/MomentVector"
+    },
+    {
+        id: 7,
+        name: "1.7-dars",
+        mavzu: "Varinion teoremasi",
+        path:"/VarignonTheorem"
+    },
+    {
+        id: 8,
+        name: "1.8-dars",
+        mavzu: "O’qqa nisbatan kuch mоmenti",
+        path:"/ForceMomentOnAxis"
+    },
+    {
+        id: 9,
+        name: "1.9-dars",
+        mavzu: "Juft kuch.  Juft momenti",
+        path:"/CoupleMoment"
+    },
+    {
+        id: 10,
+        name: "1.10-dars",
+        mavzu: "Bоg’lanish turlari va bоg’lanish reaksiyа kuchlari",
+        path:"/ConnectionsAndReactions"
+    },
     // {
     //     id: 11,
     //     name: "2.1-dars",

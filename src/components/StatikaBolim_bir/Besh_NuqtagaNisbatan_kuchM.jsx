@@ -1,6 +1,5 @@
 import React from "react";
 import { InlineMath, BlockMath } from "react-katex";
-import image1_15Qr from '../../assets/image1_15Qr.png';
 import image1_15 from '../../assets/image1_15.png';
 import image1_16 from '../../assets/image1_16.png';
 import Navbar from "../Navbar";
