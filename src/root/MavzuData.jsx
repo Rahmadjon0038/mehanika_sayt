@@ -5,31 +5,31 @@ export const mavzuData = [
         mavzu: " Kuch.  Kuchlar sistemasi. Teng ta’sir etuvchi kuch.",
         path:'/Bir_KuchKuchlarsistemasiTengsiretuvchikuch'
     },
-    // {
+    {
         
-    //     id: 2,
-    //     name: "1.2-dars",
-    //     mavzu: " Asosiy aksiomalar.  ",
-    //     path:'/AxiomsSection'
-    // },
-    // {
-    //     id: 3,
-    //     name: "1.3-dars",
-    //     mavzu: " Uch kuch muvozanati haqidagi teoremaga doir masalalar",
-    //     path:"/ForcesIntersection"
-    // },
-    // {
-    //     id: 4,
-    //     name: "1.4-dars",
-    //     mavzu: " Kuchning o’qdagi va tekislikdagi prоeksiyasi",
-    //     path:"/ProjectionAndProblems"
-    // },
-    // {
-    //     id: 5,
-    //     name: "1.5-dars",
-    //     mavzu: " Nuqtaga nisbatan kuch momenti",
-    //     path:"/ForceMoment"
-    // },
+        id: 2,
+        name: "1.2-dars",
+        mavzu: " Asosiy aksiomalar.  ",
+        path:'/AxiomsSection'
+    },
+    {
+        id: 3,
+        name: "1.3-dars",
+        mavzu: " Uch kuch muvozanati haqidagi teoremaga doir masalalar",
+        path:"/ForcesIntersection"
+    },
+    {
+        id: 4,
+        name: "1.4-dars",
+        mavzu: " Kuchning o’qdagi va tekislikdagi prоeksiyasi",
+        path:"/ProjectionAndProblems"
+    },
+    {
+        id: 5,
+        name: "1.5-dars",
+        mavzu: " Nuqtaga nisbatan kuch momenti",
+        path:"/Besh_NuqtagaNisbatan_kuchM"
+    },
     // {
     //     id: 6,
     //     name: "1.6-dars",

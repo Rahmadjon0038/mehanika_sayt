@@ -21,13 +21,6 @@ function Uch_uchKuchMuozanati() {
                     <h1 className="text-2xl font-bold text-center mb-6">
                         1.3 – §. Uch kuch muvozanati haqidagi teoremaga doir masalalar
                     </h1>
-                    <div className="text-center my-6">
-                        <img
-                            src={image1_3Qr}
-                            alt="Kuch ta'sir chizig'i"
-                            className="mx-auto rounded-lg shadow-lg  sm:w-3/5 lg:w-1/5"
-                        />
-                    </div>
 
                     {/* 1.1-Masala */}
                     <h2 className="text-lg font-bold mb-4">1.1-masala:</h2>
@@ -90,29 +83,67 @@ function Uch_uchKuchMuozanati() {
                     <p className="mb-4">
                         Demak, bu kuchlarni o’ziga parallel ko’chirib, yo’nalishlarini e’tiborga olib, yopiq kuch uchburchagini qurib olamiz. Uchburchakning ichki burchaklari ma’lumligidan, hamda sinuslar teoremasidan foydalanib, no’malum kuchlar aniqlanadi:
                     </p>
-                    <BlockMath style={mathStyle} math={"\\frac{S_C}{\\sin 30^\\circ} = \\frac{S_A}{\\sin 45^\\circ} = \\frac{P}{\\sin (90^\\circ + 15^\\circ)}"} />
-                    <BlockMath style={mathStyle} math={"S_C = \\frac{P \\sin 30^\\circ}{\\cos 15^\\circ} = \\frac{20 \\cdot 0.5}{0.966} = 10.4 \\ \\text{N}"} />
-                    <BlockMath style={mathStyle} math={"S_A = \\frac{P \\sin 45^\\circ}{\\cos 15^\\circ} = \\frac{20 \\cdot 0.71}{0.966} = 14.7 \\ \\text{N}"} />
-                    <p className="mb-4">
-                        Demak, sterjenlarning zo’riqish kuchlari:
-                    </p>
-                    <ul className="list-disc pl-6">
-                        <li><InlineMath style={mathStyle} math={"S_C = 10.4 \\ \\text{N}"} /></li>
-                        <li><InlineMath style={mathStyle} math={"S_A = 14.7 \\ \\text{N}"} /></li>
-                    </ul>
+                    
 
-                    {/* 1.3-Masala */}
-                    <h2 className="text-lg font-bold mb-4">1.3-masala:</h2>
+                    <BlockMath style={mathStyle} math={`S_C = \\frac{P \\cdot \\sin(30^\\circ)}{\\cos(15^\\circ)} = \\frac{200.5}{0.966} = 10.4 \\text{N}`} />
+                    <BlockMath style={mathStyle} math={`S_A = \\frac{P \\cdot \\sin(45^\\circ)}{\\cos(15^\\circ)} = \\frac{200.71}{0.966} = 14.6 \\text{N}`} />
+
                     <p className="mb-4">
-                        Ta’kidlashlar va shartlar bu masala uchun har xil, lekin buni boshqa mantiqiy izoh bilan ishlashni davom eting!
+                        Javob: S_C = 10.4 N, S_A = 14.6 N.
                     </p>
-                    <div className="text-center my-6">
-                        <img
-                            src={image1_9a}
-                            alt="Kuch ta'sir chizig'i"
-                            className="mx-auto rounded-lg shadow-lg w-full sm:w-3/4 lg:w-1/3"
-                        />
+
+                    <h3 className="text-lg font-bold mb-4" style={mathStyle}>1.3 – masala. Tog’larda qurilgan temir yo’lda yo’lning dara ichidagi bir qismi</h3>
+                    <p className="mb-4">
+                        Rasmda ko'rsatilgan kabi, AB osmaga 500 kN kuch ta’sir etadi deb hisoblab, AC va AD sterjenlardagi zo’riqishlarni aniqlash kerak.
+                    </p>
+                    <p className="mb-4" style={mathStyle}>
+                        <b>Yechish:</b> Masaladagi qurilma muvozanat holatida turishi uchun AC va AD sterjenlar biriktirilgan A sharnir qo'yilgan P⃗ kuch ta'sirida muvozanatda turishi kerak. 
+                    </p>
+                    <p className="mb-4">
+                        A sharnir S⃗AC – AC sterjendagi, S⃗AD – AD sterjendagi zo’riqish kuchlari hamda P⃗ kuch ta’sirida turibdi deb "Uch kuch haqidagi" teoremadan foydalanamiz. 
+                    </p>
+                    <p className="mb-4">
+                        Kuchlarning yo’nalishlarini hisobga olib, shakldagidek yopiq kuch uchburchagini tuzamiz.
+                    </p>
+
+
+
+
+                    <p className="mb-4">
+                    Bunda sterjenlar A sharnirni ko’tarib turibdi, deb hisoblaymiz. S⃗AC va S⃗AD larni sharnirga tomon yo’naltiramiz.
+                    Burchaklar ma’lumligidan sinuslar teoremasini qo’llaymiz.
+                </p>
+
+                {/* Sinuslar teoremasi */}
+                <BlockMath math={`\\frac{S_{AC}}{\\sin(90^\\circ - \\alpha)} = \\frac{S_{AD}}{\\sin(90^\\circ - \\alpha)} = \\frac{P}{\\sin(2\\alpha)}`} />
+                <BlockMath math={`S_{AC} = S_{AD} = \\frac{P}{2 \\cdot \\sin(\\alpha)}`} />
+
+                <p className="mb-4">
+                    Shakldan, sin(α) ni aniqlaymiz: 
+                </p>
+
+                {/* Sinus hisoblash */}
+                <BlockMath math={`\\sin(\\alpha) = \\frac{6.1}{\\sqrt{11.65^2 + 6.1^2}} = \\frac{6.1}{13.15} = 0.4639`} />
+
+                <p className="mb-4">
+                    Endi formulaga qo‘yib hisoblasak:
+                </p>
+
+                {/* Hisoblash */}
+                <BlockMath math={`S_{AC} = S_{AD} = \\frac{500}{2 \\cdot 0.4639} = 539 \\text{ kN}`} />
+
+                <p className="mb-4">
+                    Demak, S_AC = S_AD = 539 kN, bo'lib 500 kN yukni ko’tarish uchun har bir sterjenga 539 kN dan zo’riqish kuchi tushmoqda.
+                </p>
+
+                <p className="mb-4">
+                    Nazariy mexanikada 
+                    <div className="grid lg:grid-cols-2 py-3 justify-center gap-6">
+                        <img src={image1_9a} alt="" />
+                        <img src={image1_9b} alt="" />
                     </div>
+                    masalalar yechishda geometriya formulalaridan foydalanilsa, masala geometrik usulda yechildi deyiladi.
+                </p>
                 </div>
             </div>
         </>

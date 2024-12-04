@@ -2,8 +2,8 @@ import React from 'react'
 import Bir_KuchKuchlarsistemasiTengsiretuvchikuch from '../components/StatikaBolim_bir/Bir_KuchKuchlarsistemasiTengsiretuvchikuch'
 import Ikki_axsioma from '../components/StatikaBolim_bir/Ikki_axsioma'
 import Uch_uchKuchMuozanati from '../components/StatikaBolim_bir/Uch_uchKuchMuozanati'
-// import ProjectionAndProblems from '../components/StatikaBolim_bir/Tort_KuchningProyeksiyasi'
-// import ForceMoment from '../components/StatikaBolim_bir/Besh_NuqtagaNisbatan_kuchM'
+import ProjectionAndProblems from '../components/StatikaBolim_bir/Tort_KuchningProyeksiyasi'
+import ForceMoment from '../components/StatikaBolim_bir/Besh_NuqtagaNisbatan_kuchM'
 // import MomentVector from '../components/StatikaBolim_bir/Ollti_NuqtagaNisKuchM'
 // import VarignonTheorem from '../components/StatikaBolim_bir/Yetti_Varinion_teoremasi'
 // import ForceMomentOnAxis from '../components/StatikaBolim_bir/Saakiz_OqqnaNKuchM'
@@ -28,16 +28,16 @@ export const rootdata = [
         name:<Uch_uchKuchMuozanati/>,
         path:"/ForcesIntersection"
     },
-    // {
-    //     id:4,
-    //     name:<ProjectionAndProblems/>,
-    //     path:"/ProjectionAndProblems"
-    // },
-    // {
-    //     id:5,
-    //     name:<ForceMoment/>,
-    //     path:"/ForceMoment"
-    // },
+    {
+        id:4,
+        name:<ProjectionAndProblems/>,
+        path:"/ProjectionAndProblems"
+    },
+    {
+        id:5,
+        name:<ForceMoment/>,
+        path:"/ForceMoment"
+    },
     // {
     //     id:6,
     //     name:<MomentVector/>,
