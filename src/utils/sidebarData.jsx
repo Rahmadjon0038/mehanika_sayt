@@ -68,10 +68,11 @@ export const bolimlar = [
             },
         ]
     },
+   
     {
         id: 2,
         name: "2-bob",
-        bobname: "STATIKA.  ASOSIY  TUSHUNCHALAR.  AKSIОMALAR. BOG’LANISHLAR  VA ULARNING  REAKSIYA  KUCHLARI",
+        bobname: " FAZODA IXTIYORIY JOYLASHGAN KUCHLARSISTEMASINI SODDA HOLGA KELTIRISH ",
         children: [
             {
                 id: 1,
@@ -84,6 +85,13 @@ export const bolimlar = [
                 id: 2,
                 name: "2.2-dars",
                 mavzu: "Kesishuvchi kuchlar sistemasining muvоzanat tenglamalari",
+                path:'/KesishuvchiKuchlarMuvozanati'
+            },
+            {
+                
+                id: 3,
+                name: "2.3-dars",
+                mavzu: "KeKesishuvchi kuchlar sistemasining muvozanatiga doir masalalar sishuvchi kuchlar sistemasining muvоzanat tenglamalari",
                 path:'/KesishuvchiKuchlarMuvozanati'
             },
             

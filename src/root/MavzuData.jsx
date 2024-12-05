@@ -60,18 +60,18 @@ export const mavzuData = [
         mavzu: "Bоg’lanish turlari va bоg’lanish reaksiyа kuchlari",
         path:"/ConnectionsAndReactions"
     },
-    // {
-    //     id: 11,
-    //     name: "2.1-dars",
-    //     mavzu: "Kesishuvchi kuchlar sistemasini qo’shish",
-    //     path:"/KesishuvchiKuchlar"
-    // },
-    // {
-    //     id: 12,
-    //     name: "2.2-dars",
-    //     mavzu: "Kesishuvchi kuchlar sistemasining muvоzanat tenglamalari",
-    //     path:"/KesishuvchiKuchlarMuvozanati"
-    // },
+    {
+        id: 11,
+        name: "2.1-dars",
+        mavzu: "Kesishuvchi kuchlar sistemasini qo’shish",
+        path:"/KesishuvchiKuchlar"
+    },
+    {
+        id: 12,
+        name: "2.2-dars",
+        mavzu: "Kesishuvchi kuchlar sistemasining muvоzanat tenglamalari",
+        path:"/KesishuvchiKuchlarMuvozanati"
+    },
     
     
 ]
