@@ -72,6 +72,10 @@ export const mavzuData = [
         mavzu: "Kesishuvchi kuchlar sistemasining muvоzanat tenglamalari",
         path:"/KesishuvchiKuchlarMuvozanati"
     },
-    
-    
+    {
+        id: 13,
+        name: "2.3-dars",
+        mavzu: "Kesishuvchi kuchlar sistemasining muvоzanatiga doir masalalar",
+        path:"/KesishuvchiKuchlarMuvozanatiMasala"
+    },
 ]

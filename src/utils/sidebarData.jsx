@@ -91,8 +91,8 @@ export const bolimlar = [
                 
                 id: 3,
                 name: "2.3-dars",
-                mavzu: "KeKesishuvchi kuchlar sistemasining muvozanatiga doir masalalar sishuvchi kuchlar sistemasining muvоzanat tenglamalari",
-                path:'/KesishuvchiKuchlarMuvozanati'
+                mavzu: "Kesishuvchi kuchlar sistemasining muvozanatiga doir masalalar sishuvchi kuchlar sistemasining muvоzanat tenglamalari",
+                path:'/KesishuvchiKuchlarMuvozanatiMasala'
             },
             
         ]

@@ -12,6 +12,7 @@ import ConnectionsAndReactions from '../components/StatikaBolim_bir/On_BoshlanGi
 // ///Birinchi bolim toliq yakunlandi
 import KesishuvchiKuchlar from '../components/FazodaIxtiyoriYBolimIkki/BIkkiBirKes'
 import KesishuvchiKuchlarMuvozanati from '../components/FazodaIxtiyoriYBolimIkki/IkkiKesishuvchiKuchlarMuvozanati'
+import KesishuvchiKuchlarMuvozanatiMasala from '../components/FazodaIxtiyoriYBolimIkki/UchKsishuvchiKuchlarMuzanatiMasalalar'
 export const rootdata = [
     {
         id:1,
@@ -75,5 +76,9 @@ export const rootdata = [
         name:<KesishuvchiKuchlarMuvozanati/>,
         path:"/KesishuvchiKuchlarMuvozanati"
     },
-
+    {
+        id:13,
+        name:<KesishuvchiKuchlarMuvozanatiMasala/>,
+        path:"/KesishuvchiKuchlarMuvozanatiMasala"
+    },
 ]
