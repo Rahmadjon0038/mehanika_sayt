@@ -6,8 +6,8 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <div className="p-4 bg-gray-100 mt-20">
-                <div className="bg-white rounded-lg shadow-lg max-w-7xl mx-auto">
+            <div className="p-4  bg-gray-100 mt-20">
+                <div className="bg-white h-[100vh] rounded-lg shadow-lg max-w-7xl mx-auto">
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-8 p-8">
                         <img 
                             src={user} 
