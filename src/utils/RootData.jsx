@@ -13,6 +13,18 @@ import ConnectionsAndReactions from '../components/StatikaBolim_bir/On_BoshlanGi
 import KesishuvchiKuchlar from '../components/FazodaIxtiyoriYBolimIkki/BIkkiBirKes'
 import KesishuvchiKuchlarMuvozanati from '../components/FazodaIxtiyoriYBolimIkki/IkkiKesishuvchiKuchlarMuvozanati'
 import KesishuvchiKuchlarMuvozanatiMasala from '../components/FazodaIxtiyoriYBolimIkki/UchKsishuvchiKuchlarMuzanatiMasalalar'
+
+import BirTomongaYonalganParallelKuchlar from '../components/FazodaIxtiyoriYBolimIkki/TortBirTomongaYonalganKuchlar'
+import QaramaQarshiParallelKuchlar from '../components/FazodaIxtiyoriYBolimIkki/BeshMiqdorgaTengBolmagan'
+import ParallelKuchlarMarkazi from '../components/FazodaIxtiyoriYBolimIkki/OltiParalelKuchalr'
+import OgirlikMarkazi from '../components/FazodaIxtiyoriYBolimIkki/YettiOgirlikMarkazi'
+import BirJinsliJismOgirlikMarkazi from '../components/FazodaIxtiyoriYBolimIkki/SakkizBirJIsnliJismOgirlikMarkaziAniqlash'
+import OgirlikMarkaziYangi from '../components/FazodaIxtiyoriYBolimIkki/TooqqizBirJinsliJumla'
+import YangiMalumot from '../components/FazodaIxtiyoriYBolimIkki/ONOddiyShakBirJIsn'
+import KuchniKeltirish from '../components/FazodaIxtiyoriYBolimIkki/OnBirKuchMarkazgaBerigan'
+import StatikaningAsosiyTeoremasi from '../components/FazodaIxtiyoriYBolimIkki/OnIkkiSatatistikaTeoremasi'
+import FazodagiKuchlarMuvоzanati from '../components/FazodaIxtiyoriYBolimIkki/OnUchFazodaIxtoyoriyJoylashganKuchlr'
+
 export const rootdata = [
     {
         id:1,
@@ -80,5 +92,65 @@ export const rootdata = [
         id:13,
         name:<KesishuvchiKuchlarMuvozanatiMasala/>,
         path:"/KesishuvchiKuchlarMuvozanatiMasala"
+    }, 
+    {
+        id:14,
+        name:<BirTomongaYonalganParallelKuchlar/>,
+        path:"/BirTomongaYonalganParallelKuchlar"
     },
+    {
+        id:15,
+        name:<QaramaQarshiParallelKuchlar/>,
+        path:"/QaramaQarshiParallelKuchlar"
+    },
+    {
+        id:16,
+        name:<ParallelKuchlarMarkazi/>,
+        path:"/ParallelKuchlarMarkazi"
+    },
+    {
+        id:17,
+        name:<OgirlikMarkazi/>,
+        path:"/OgirlikMarkazi"
+    },
+    {
+        id:18,
+        name:<BirJinsliJismOgirlikMarkazi/>,
+        path:"/BirJinsliJismOgirlikMarkazi"
+    },
+    {
+        id:19,
+        name:<OgirlikMarkaziYangi/>,
+        path:"/OgirlikMarkaziYangi"
+    },
+    {
+        id:20,
+        name:<YangiMalumot/>,
+        path:"/YangiMalumot"
+    },
+    {
+        id:21,
+        name:<KuchniKeltirish/>,
+        path:"/OnBirKuchMarkazgaBerigan"
+    },
+    {
+        id:22,
+        name:<StatikaningAsosiyTeoremasi/>,
+        path:"/StatikaningAsosiyTeoremasi"
+    },
+    {
+        id:23,
+        name:<FazodagiKuchlarMuvоzanati/>,
+        path:"/FazodagiKuchlarMuvоzanati"
+    },
+    
+    
+
+
+    
+    
+
+    
+    
+    
 ]

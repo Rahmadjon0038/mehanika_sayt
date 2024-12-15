@@ -94,6 +94,73 @@ export const bolimlar = [
                 mavzu: "Kesishuvchi kuchlar sistemasining muvozanatiga doir masalalar sishuvchi kuchlar sistemasining muvоzanat tenglamalari",
                 path:'/KesishuvchiKuchlarMuvozanatiMasala'
             },
+            {
+                
+                id: 4,
+                name: "2.4-dars",
+                mavzu: " 2.4 – §. Bir tomonga qarab yo’nalgan o’zaro parallel ikkita kuchni qo’shish",
+                path:'/BirTomongaYonalganParallelKuchlar'
+            },
+            {
+                
+                id: 5,
+                name: "2.5-dars",
+                mavzu: "  Miqdorlari teng bo’lmagan, o’zaro parallel, qarama-qarshi tomonga yo’nalgan ikkita kuchni qo’shish",
+                path:'/QaramaQarshiParallelKuchlar'
+            }, 
+            {
+                
+                id: 6,
+                name: "2.6-dars",
+                mavzu: " Parallel kuchlar markazi",
+                path:'/ParallelKuchlarMarkazi'
+            },
+            {
+                id: 7,
+                name: "2.7-dars",
+                mavzu: "Qattiq jismning og‘irlik markazi",
+                path:'/OgirlikMarkazi'
+            },
+            {
+                id: 8,
+                name: "2.8-dars",
+                mavzu: "Bir jinsli jismlarning og‘irlik markazini aniqlash",
+                path:'/BirJinsliJismOgirlikMarkazi'
+            },
+            {
+                id: 9,
+                name: "2.9-dars",
+                mavzu: "  Bir jinsli jismlarning og‘irlik markazini aniqlash usullari ",
+                path:'/OgirlikMarkaziYangi'
+            },
+            {
+                id: 10,
+                name: "2.10-dars",
+                mavzu: "Oddiy shakilli, bir jinsli ba'zi jismlarning og‘irlik markazlarini aniqlash",
+                path:'/YangiMalumot'
+            },
+            {
+                id: 11,
+                name: "2.11-dars",
+                mavzu: "Kuchni berilgan markazga keltirish haqida lemma",
+                path:'/OnBirKuchMarkazgaBerigan'
+            },
+            {
+                id: 12,
+                name: "2.12-dars",
+                mavzu: "Statikaning asosiy teoremasi (Lui Puanso teoremasi)",
+                path:'/StatikaningAsosiyTeoremasi'
+            },
+            
+            {
+                id: 13,
+                name: "2.13-dars",
+                mavzu: "Fazoda ixtiyoriy joylashgan kuchlar sistemasining muvozanati",
+                path:'/FazodagiKuchlarMuvоzanati'
+            },
+            
+            
+          
             
         ]
     },

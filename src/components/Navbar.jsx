@@ -82,7 +82,7 @@ function Navbar() {
                   {bolimlar
                     .find((bob) => bob.id === selected)
                     ?.children?.map((lesson) => (
-                      <NavLink to={lesson.path} key={lesson.id} className="bg-slate-100 p-3 rounded-lg mb-2 shadow block">
+                      <NavLink onClick={()=>setOpen(false)} to={lesson.path} key={lesson.id} className="bg-slate-100 p-3 rounded-lg mb-2 shadow block">
                         <h1 className="text-slate-900">{lesson.name}</h1>
                         <p className="text-sm text-gray-700">{lesson.mavzu}</p>
                       </NavLink>

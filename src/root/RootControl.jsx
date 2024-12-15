@@ -2,11 +2,9 @@ import React, { useEffect } from 'react'
 import Home from '../components/home/Home'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { rootdata } from '../utils/RootData'
-import BirTomongaYonalganParallelKuchlar from '../components/FazodaIxtiyoriYBolimIkki/TortBirTomongaYonalganKuchlar'
-import QaramaQarshiParallelKuchlar from '../components/FazodaIxtiyoriYBolimIkki/BeshMiqdorgaTengBolmagan'
-import ParallelKuchlarMarkazi from '../components/FazodaIxtiyoriYBolimIkki/OltiParalelKuchalr'
-import OgirlikMarkazi from '../components/FazodaIxtiyoriYBolimIkki/YettiOgirlikMarkazi'
-import BirJinsliJismOgirlikMarkazi from '../components/FazodaIxtiyoriYBolimIkki/SakkizBirJIsnliJismOgirlikMarkaziAniqlash'
+import OnBirKuchMarkazgaBerigan from '../components/FazodaIxtiyoriYBolimIkki/OnBirKuchMarkazgaBerigan'
+import StatikaningAsosiyTeoremasi from '../components/FazodaIxtiyoriYBolimIkki/OnIkkiSatatistikaTeoremasi'
+import FazodagiKuchlarMuvоzanati from '../components/FazodaIxtiyoriYBolimIkki/OnUchFazodaIxtoyoriyJoylashganKuchlr'
 
 function RootControl() {
   const {pathname} = useLocation()
@@ -15,17 +13,15 @@ function RootControl() {
   },[pathname])
   return (
     <div>
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Home />} />
         {rootdata?.map((item) => (
           <Route key={item.id} path={item.path} element={item.name} />
         ))}
-      </Routes> */}
-      {/* <BirTomongaYonalganParallelKuchlar/> */}
-      {/* <QaramaQarshiParallelKuchlar/> */}
-      {/* <ParallelKuchlarMarkazi/> */}
-      {/* <OgirlikMarkazi/> */}
-      <BirJinsliJismOgirlikMarkazi/>
+      </Routes>
+      {/* <OnBirKuchMarkazgaBerigan/> */}
+      {/* <StatikaningAsosiyTeoremasi/> */}
+      <FazodagiKuchlarMuvоzanati/>
     </div>
   )
 }
