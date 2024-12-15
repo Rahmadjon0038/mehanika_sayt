@@ -5,3 +5,12 @@
 .te{
     color: blue;
 }
+a.active{
+    text-decoration: underline;
+   
+}
+/* CSS faylida */
+.custom-modal .ant-modal-content {
+    transition: all 0.1s ease-in-out !important; /* Tezroq animatsiya */
+  }
+  
