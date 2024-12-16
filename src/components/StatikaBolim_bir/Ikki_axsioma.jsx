@@ -7,6 +7,9 @@ import image1_4 from '../../assets/image1_4.png'
 import image1_5 from '../../assets/image1_5.png'
 import image1_6 from '../../assets/image1_6.png'
 import Navbar from "../Navbar";
+import { NavLink } from "react-router-dom";
+import ArrowButtons from "../home/ArrowButtons";
+import NavigationButtons from "../home/ArrowButtons";
 
 function Ikki_axsioma() {
     return (
@@ -126,6 +129,8 @@ function Ikki_axsioma() {
                     <p className="mb-4">
                         Demak, uchta kuch o’zarо muvozanatda bo’lsa, ular o’zaro bir nuqtada kesishadi va kuchlarning ta’sir chiziqlari uchburchak hosil qiladi.
                     </p>
+
+                   <NavigationButtons/>
                 </div>
             </div>
         </>

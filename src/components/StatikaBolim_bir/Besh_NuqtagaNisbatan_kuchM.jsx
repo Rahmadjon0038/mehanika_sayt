@@ -3,6 +3,7 @@ import { InlineMath, BlockMath } from "react-katex";
 import image1_15 from '../../assets/image1_15.png';
 import image1_16 from '../../assets/image1_16.png';
 import Navbar from "../Navbar";
+import NavigationButtons from "../home/ArrowButtons";
 
 function ForceMoment() {
     return (
@@ -77,6 +78,7 @@ function ForceMoment() {
                             className="mx-auto shadow-lg sm:w-3/5 lg:w-1/3"
                         />
                     </div>
+                    <NavigationButtons/>
                 </div>
             </div>
         </>

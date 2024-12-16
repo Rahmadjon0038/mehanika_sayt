@@ -3,6 +3,7 @@ import { InlineMath, BlockMath } from "react-katex";
 import image1_17 from '../../assets/image1_17.png'
 import Navbar from "../Navbar";
 import "katex/dist/katex.min.css";
+import NavigationButtons from "../home/ArrowButtons";
 
 function MomentVector() {
     return (
@@ -89,6 +90,8 @@ function MomentVector() {
                     </p>
                     <BlockMath math={"M_o(\\vec{F}) = \\sqrt{(yF_z - zF_y)^2 + (zF_x - xF_z)^2 + (xF_y - yF_x)^2}"} />
                     <p className="mb-4">(1.16)</p>
+
+                    <NavigationButtons/>
                 </div>
             </div>
         </>

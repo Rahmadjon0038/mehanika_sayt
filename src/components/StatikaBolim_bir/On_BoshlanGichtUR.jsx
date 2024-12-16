@@ -10,6 +10,7 @@ import image1_33 from '../../assets/image1_33.png';
 import image1_34 from '../../assets/image1_34.png';
 import image1_35 from '../../assets/image1_35.png';
 import image1_36 from '../../assets/image1_36.png';
+import NavigationButtons from "../home/ArrowButtons";
 
 function ConnectionsAndReactions() {
   return (
@@ -151,6 +152,7 @@ function ConnectionsAndReactions() {
             Mexanika masalalarini yechishda, bog’lanishdagi jismni bog’liqligidan ozod qilib, bog’lanish ta’sirini reaksiya kuchi bilan almashtirib,
             aktiv va passiv kuchlar ta’siridagi **erkin jism** deb qaraladi.
           </p>
+          <NavigationButtons/>
         </div>
       </div>
     </>

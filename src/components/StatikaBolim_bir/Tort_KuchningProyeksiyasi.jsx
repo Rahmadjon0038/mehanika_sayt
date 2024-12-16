@@ -7,6 +7,7 @@ import image1_13 from '../../assets/image1_13.png'
 import image1_14 from '../../assets/image1_14.png'
 import image1_14Qr from '../../assets/image1_14Qr.png'
 import Navbar from "../Navbar";
+import NavigationButtons from "../home/ArrowButtons";
 
 function ProjectionAndProblems() {
     return (
@@ -177,6 +178,7 @@ function ProjectionAndProblems() {
                     <p className="mb-4">Natija:</p>
                     <BlockMath math={"F_{total} = 1 \\sin(30^\\circ) + 2 \\cos(45^\\circ) - 3 \\cos(60^\\circ) - 4"} />
                     <p className="mb-4">Javob: <InlineMath math={"-3.58 N"} /></p>
+                    <NavigationButtons/>
                 </div>
             </div>
         </>

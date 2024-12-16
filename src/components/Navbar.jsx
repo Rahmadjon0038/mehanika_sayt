@@ -80,7 +80,7 @@ function Navbar() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           type="text"
-          placeholder="Search your content and Canva’s"
+          placeholder="Mavzu nomini kiriting"
           className="bg-transparent focus:outline-none w-full text-gray-700"
         />
       </div>

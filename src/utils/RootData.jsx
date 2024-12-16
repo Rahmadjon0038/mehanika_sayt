@@ -145,12 +145,4 @@ export const rootdata = [
     },
     
     
-
-
-    
-    
-
-    
-    
-    
 ]

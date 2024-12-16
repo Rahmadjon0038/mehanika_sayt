@@ -28,7 +28,7 @@ export const mavzuData = [
         id: 5,
         name: "1.5-dars",
         mavzu: " Nuqtaga nisbatan kuch momenti",
-        path:"/Besh_NuqtagaNisbatan_kuchM"
+        path:"/ForceMoment"
     },
     {
         id: 6,

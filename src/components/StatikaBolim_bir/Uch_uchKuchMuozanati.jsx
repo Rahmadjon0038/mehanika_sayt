@@ -7,6 +7,7 @@ import image1_8 from '../../assets/image1_8.png'
 import image1_9a from '../../assets/image1_9a.png'
 import image1_9b from '../../assets/image1_9b.png'
 import Navbar from "../Navbar";
+import NavigationButtons from "../home/ArrowButtons";
 
 function Uch_uchKuchMuozanati() {
     const mathStyle = {
@@ -144,6 +145,8 @@ function Uch_uchKuchMuozanati() {
                     </div>
                     masalalar yechishda geometriya formulalaridan foydalanilsa, masala geometrik usulda yechildi deyiladi.
                 </p>
+
+                <NavigationButtons/>
                 </div>
             </div>
         </>

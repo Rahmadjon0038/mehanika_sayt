@@ -9,6 +9,7 @@ import image1_21 from '../../assets/image1_21.png';
 import image1_22 from '../../assets/image1_22.png';
 import image1_23 from '../../assets/image1_23.png';
 import image1_24No from '../../assets/image1_24No.png';
+import NavigationButtons from "../home/ArrowButtons";
 
 function ForceMomentOnAxis() {
     return (
@@ -273,6 +274,7 @@ function ForceMomentOnAxis() {
                     <p className="mb-4">
                         Shunday qilib, <InlineMath>{'Oz'}</InlineMath> o‘qqa nisbatan kuchning momenti 0.71 N·m ga teng bo‘ladi.
                     </p>
+                    <NavigationButtons/>
                 </div>
             </div>
         </>

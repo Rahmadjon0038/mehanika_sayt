@@ -4,6 +4,7 @@ import image1_25 from '../../assets/image1_25.png';
 import image1_26 from '../../assets/image1_26.png';
 import image1_27 from '../../assets/image1_27.png';
 import Navbar from "../Navbar";
+import NavigationButtons from "../home/ArrowButtons";
 
 function CoupleMoment() {
     return (
@@ -121,7 +122,7 @@ function CoupleMoment() {
                         Juft momenti juft yotgan tekislikka perpendikulyar vektor kattalik bo’lib, miqdori juft tashkil qiluvchi kuchlardan biri bilan juft yelkasining ko’paytmasiga teng, yo’nalishi uchidan qaralganda, juft kuch jismni soat miliga teskari aylantirayotgandek ko’rinishida yo’naltiriladi.
                         Ta’rifdan ko’rinadiki, juft momenti erkin vektor bo’lib, qo’yilish nuqtasi aniqlanmagan. Juft momenti nolga teng bo’lishi uchun yelkasi    d=0    bo’lishi kerak, bu holda   F ⃗1   va   F ⃗2     kuchlar bir to’g’ri chiziqda yotadi va muvozanatlashuvchi kuchlar sistemasini tashkil qiladi.
                     </p>
-
+                    <NavigationButtons/>
                 </div>
             </div>
         </>
