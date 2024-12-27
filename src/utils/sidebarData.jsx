@@ -158,11 +158,21 @@ export const bolimlar = [
                 mavzu: "Fazoda ixtiyoriy joylashgan kuchlar sistemasining muvozanati",
                 path:'/FazodagiKuchlarMuvоzanati'
             },
-            
-            
-          
-            
         ]
     },
+
+    {
+        id:3,
+        name:"3-bob",
+        bobname:"3 bob. KUCHLAR  SISTEMASINING  MUVOZANAT  SHARTLARI. MASALALAR",
+        children:[
+            {
+                id: 1,
+                name: "3.1-dars",
+                mavzu: " Tekislikda ixtiyoriy jоylashgan kuchlar sistemasining muvоzanati ",
+                path:'/KesishuvchiKuchlar'
+            },
+        ]
+    }
 ]
 
