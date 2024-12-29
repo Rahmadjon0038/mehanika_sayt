@@ -140,6 +140,64 @@ export const mavzuData = [
         mavzu: " Fazoda ixtiyoriy joylashgan kuchlar sistemasining muvozanati",
         path:"/FazodagiKuchlarMuvоzanati"
     },
+
+
+    // ====================
+    {
+        id: 24,
+        name: "3.1-dars",
+        mavzu: "Tekislikda ixtiyoriy jоylashgan kuchlar sistemasining muvоzanati",
+        path:"/TekislikdaKuchlarMuvozanati"
+    },
+    {
+        id: 25,
+        name: "3.2-dars",
+        mavzu: "yoyilgan kuchlarni hisobga olish",
+        path:"/YoyilganKuchlarniHisobgaOlish"
+    },
+    {
+        id: 26,
+        name: "3.3-dars",
+        mavzu: "Tekislikda joylashgan kuchlar sistemasining muvozanatiga doir masalalar",
+        path:"/TekislikdaKuchlarSystemasiMuvozanati"
+    },
+    {
+        id: 27,
+        name: "3.4-dars",
+        mavzu: "Statik aniq va statik aniqmas masalalar",
+        path:"/StatikAniqVaStatikAniqmas"
+    },
+    {
+        id: 28,
+        name: "3.5-dars",
+        mavzu: "Ishqalanishni hisоbga оlganda qattiq jismlar sistemasining muvоzanatini tekshirish. Sirpanishdagi ishqalanish",
+        path:"/IshqalanishMuvozanat"
+    },
+    {
+        id: 29,
+        name: "3.6-dars",
+        mavzu: "Ishqalanish konusi va ishqalanish burchagi",
+        path:"/IshqalanishKonusi"
+    },
+    {
+        id: 30,
+        name: "3.7-dars",
+        mavzu: "Ishqalanish koeffitsientini tajriba yo’li bilan aniqlash",
+        path:"/IshqalanishKoeffitsientiTajriba"
+    },
+    {
+        id: 31,
+        name: "3.8-dars",
+        mavzu: "Dumalanib ishqalanish kuchi",
+        path:"/DumalanibIshqalanishK38"
+    },
+    
+    
+
+    
+    
+    
+
     
 
     

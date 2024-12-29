@@ -24,6 +24,14 @@ import YangiMalumot from '../components/FazodaIxtiyoriYBolimIkki/ONOddiyShakBirJ
 import KuchniKeltirish from '../components/FazodaIxtiyoriYBolimIkki/OnBirKuchMarkazgaBerigan'
 import StatikaningAsosiyTeoremasi from '../components/FazodaIxtiyoriYBolimIkki/OnIkkiSatatistikaTeoremasi'
 import FazodagiKuchlarMuvоzanati from '../components/FazodaIxtiyoriYBolimIkki/OnUchFazodaIxtoyoriyJoylashganKuchlr'
+import TekislikdaKuchlarMuvozanati from '../components/kuchlarMuozanatiBolim3/KuchlarSistemasiningMuozanatshartlari'
+import YoyilganKuchlarniHisobgaOlish from '../components/kuchlarMuozanatiBolim3/YoyilganKularXisobgaIkki'
+import TekislikdaKuchlarSystemasiMuvozanati from '../components/kuchlarMuozanatiBolim3/TekislikdaJoylashganKuchlar'
+import StatikAniqVaStatikAniqmas from '../components/kuchlarMuozanatiBolim3/StatikAniqStatikAniqmas'
+import IshqalanishKonusi from '../components/kuchlarMuozanatiBolim3/IshqalanishKonusi36'
+import IshqalanishKoeffitsientiTajriba from '../components/kuchlarMuozanatiBolim3/IshqalanishKoifsentiT37'
+import IshqalanishMuvozanat from '../components/kuchlarMuozanatiBolim3/IshqalanishMuvozanat'
+import DumalanibIshqalanishK38 from '../components/kuchlarMuozanatiBolim3/DumalanibIshqalanishK38'
 
 export const rootdata = [
     {
@@ -143,6 +151,56 @@ export const rootdata = [
         name:<FazodagiKuchlarMuvоzanati/>,
         path:"/FazodagiKuchlarMuvоzanati"
     },
+
+
+    // =========================
+    {
+        id:24,
+        name:<TekislikdaKuchlarMuvozanati/>,
+        path:"/TekislikdaKuchlarMuvozanati"
+    },
+    {
+        id:25,
+        name:<YoyilganKuchlarniHisobgaOlish/>,
+        path:"/YoyilganKuchlarniHisobgaOlish"
+    },
+    {
+        id:26,
+        name:<TekislikdaKuchlarSystemasiMuvozanati/>,
+        path:"/TekislikdaKuchlarSystemasiMuvozanati"
+    },
+    {
+        id:27,
+        name:<StatikAniqVaStatikAniqmas/>,
+        path:"/StatikAniqVaStatikAniqmas"
+    },
+    {
+        id:28,
+        name:<IshqalanishMuvozanat/>,
+        path:"/IshqalanishMuvozanat"
+    },
+    {
+        id:29,
+        name:<IshqalanishKonusi/>,
+        path:"/IshqalanishKonusi"
+    },
+    {
+        id:30,
+        name:<IshqalanishKoeffitsientiTajriba/>,
+        path:"/IshqalanishKoeffitsientiTajriba"
+    },
+    {
+        id:31,
+        name:<DumalanibIshqalanishK38/>,
+        path:"/DumalanibIshqalanishK38"
+    },
+    
+    
+    
+    
+    
+    
+  
     
     
 ]
