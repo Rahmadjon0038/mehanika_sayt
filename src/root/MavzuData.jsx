@@ -191,7 +191,37 @@ export const mavzuData = [
         mavzu: "Dumalanib ishqalanish kuchi",
         path:"/DumalanibIshqalanishK38"
     },
+    // ====================================================
+    // 4-bob
+    {
+        id: 32,
+        name: "4.1-dars",
+        mavzu: "Nuqta harakatining berilish usullari. Nuqta harakatining vektor usulda berilishi. Tezlik va tezlanish vektorlari",
+        path:"/Nuqtaharakati41"
+    },
+    {
+        id: 33,
+        name: "4.2-dars",
+        mavzu: "Nuqta harakatining kооrdinatalar usulida berilishi. Harakat  koordinatalar usulida berilganda nuqtaning tezlik va tezlanishi.",
+        path:"/NuqtaHarakatiKoordinatalarUsulida"
+    },
+    {
+        id: 34,
+        name: "4.3-dars",
+        mavzu: "  Nuqta harakatining tabiiy usulda berilishi. Harakati tabiiy usulda berilgan nuqtaning tezlik va tezlanishi",
+        path:"/NuqtaHarakatiKoordinatalarUsulida"
+    },
+    {
+        id: 35,
+        name: "4.4-dars",
+        mavzu: "Nuqta harakatini o'rganishga doir masalalar",
+        path:"/NuqtaHarakatiKoordinatalarUsulida"
+    },
     
+    // ======================================
+    // 5-bolim
+    
+
     
 
     

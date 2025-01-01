@@ -214,10 +214,82 @@ export const bolimlar = [
                 mavzu: "Dumalanib ishqalanish kuchi",
                 path: '/DumalanibIshqalanishK38'
             },
+
+
+
+
+        ]
+    },
+
+
+    // ===========================
+    // 4-bo'lim
+    {
+        id: 4,
+        name: "4-bob",
+        bobname: "4 - bob KINEMATIKA. NUQTA KINEMATIKASI",
+        children: [
+            {
+                id: 1,
+                name: "4.1-dars",
+                mavzu: " 4.1 – §. Nuqta harakatining berilish usullari. Nuqta harakatining vektor usulda berilishi. Tezlik va tezlanish vektorlari.",
+                path: '/Nuqtaharakati41'
+            },
+            {
+                id: 2,
+                name: "4.2-dars",
+                mavzu: " 4.2 – §. Nuqta harakatining kооrdinatalar usulida berilishi. Harakat  koordinatalar usulida berilganda nuqtaning tezlik va tezlanishi.",
+                path: '/NuqtaHarakatiKoordinatalarUsulida'
+            },
+            {
+                id: 3,
+                name: "4.3-dars",
+                mavzu: " 4.3 – §.  Nuqta harakatining tabiiy usulda berilishi. Harakati tabiiy usulda berilgan nuqtaning tezlik va tezlanishi",
+                path: '/NuqtaharakatiTabitU43'
+            },
+            {
+                id: 4,
+                name: "4.4-dars",
+                mavzu: " 4.4 – §.Nuqta harakatini o'rganishga doir masalalar",
+                path: '/NuqtaharakatiMasalalar44'
+            },
+           
+        ]
+    },
+    // ====================================
+    // 5-bolim
+    {
+        id: 5,
+        name: "5-bob",
+        bobname: "5 - QATTIQ JISM KINEMATIKASI. QATTIQ JISMNING  SODDA HARAKATLARI",
+        children: [
+            {
+                id: 1,
+                name: "5.1-dars",
+                mavzu: " 5.1 – §.  Qattiq jismning ilgarilanma harakati",
+                path: '/Nuqtaharakati41'
+            },
+
             
-            
-            
-            
+            {
+                id: 2,
+                name: "4.2-dars",
+                mavzu: " 4.2 – §. Nuqta harakatining kооrdinatalar usulida berilishi. Harakat  koordinatalar usulida berilganda nuqtaning tezlik va tezlanishi.",
+                path: '/NuqtaHarakatiKoordinatalarUsulida'
+            },
+            {
+                id: 3,
+                name: "4.3-dars",
+                mavzu: " 4.3 – §.  Nuqta harakatining tabiiy usulda berilishi. Harakati tabiiy usulda berilgan nuqtaning tezlik va tezlanishi",
+                path: '/NuqtaharakatiTabitU43'
+            },
+            {
+                id: 4,
+                name: "4.4-dars",
+                mavzu: " 4.4 – §.Nuqta harakatini o'rganishga doir masalalar",
+                path: '/NuqtaharakatiMasalalar44'
+            },
+           
         ]
     }
 ]
