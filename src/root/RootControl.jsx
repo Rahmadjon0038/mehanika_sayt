@@ -12,12 +12,12 @@ function RootControl() {
   },[pathname])
   return (
     <div>
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Home />} />
         {rootdata?.map((item) => (
           <Route key={item.id} path={item.path} element={item.name} />
         ))}
-      </Routes> */}
+      </Routes>
       
       
     </div>
