@@ -5,11 +5,12 @@ import { rootdata } from '../utils/RootData'
 import ArrowButtons from '../components/home/ArrowButtons'
 
 
+
 function RootControl() {
-  const {pathname} = useLocation()
-  useEffect(()=>{
-    window.scrollTo(0,0)
-  },[pathname])
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
   return (
     <div>
       <Routes>
@@ -18,8 +19,6 @@ function RootControl() {
           <Route key={item.id} path={item.path} element={item.name} />
         ))}
       </Routes>
-      
-      
     </div>
   )
 }

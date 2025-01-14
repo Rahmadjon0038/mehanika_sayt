@@ -267,28 +267,64 @@ export const bolimlar = [
                 id: 1,
                 name: "5.1-dars",
                 mavzu: " 5.1 – §.  Qattiq jismning ilgarilanma harakati",
-                path: '/Nuqtaharakati41'
+                path: '/IlgarilanmaHarakat51'
             },
 
             
             {
                 id: 2,
-                name: "4.2-dars",
-                mavzu: " 4.2 – §. Nuqta harakatining kооrdinatalar usulida berilishi. Harakat  koordinatalar usulida berilganda nuqtaning tezlik va tezlanishi.",
-                path: '/NuqtaHarakatiKoordinatalarUsulida'
+                name: "5.2-dars",
+                mavzu: " 5.2 – §. Qattiq jismning qo’zg’almas o’q atrofida aylanma harakati. Burchak tezlik va burchak tezlanish",
+                path: '/QozgalmasOq52'
             },
             {
                 id: 3,
-                name: "4.3-dars",
-                mavzu: " 4.3 – §.  Nuqta harakatining tabiiy usulda berilishi. Harakati tabiiy usulda berilgan nuqtaning tezlik va tezlanishi",
-                path: '/NuqtaharakatiTabitU43'
+                name: "5.3-dars",
+                mavzu: " 5.3 – §.Burchak tezlik va burchak tezlanish vektorlari",
+                path: '/BurchakTezlik53'
             },
+
+       
             {
                 id: 4,
-                name: "4.4-dars",
-                mavzu: " 4.4 – §.Nuqta harakatini o'rganishga doir masalalar",
-                path: '/NuqtaharakatiMasalalar44'
+                name: "5.4-dars",
+                mavzu: " 5.4 – § Qo'zg'almas o'q atrofida aylanma harakatdagi jism ixtiyoriy nuqtasining tezligi",
+                path: '/QozgalmaOq54'
             },
+            {
+                id: 5,
+                name: "5.5-dars",
+                mavzu: " 5.5 – § Qo’zg’almas o’q atrofidagi aylanma harakatdagi jism nuqtalarining tezlanishi",
+                path: '/QozgalmasAylanmamain55'
+            },
+            {
+                id: 6,
+                name: "5.6-dars",
+                mavzu: " 5.6 – § Qattiq jismning tekis parallel harakati",
+                path: '/QattiqJismningHarakati56'
+            },
+            {
+                id: 7,
+                name: "5.8-dars",
+                mavzu: " 5.8 – § Tekis parallel harakatdagi jismning harakat tenglamalari",
+                path: '/TekisParalelHarakatDagi57'
+            },
+            {
+                id: 8,
+                name: "5.9-dars",
+                mavzu: " 5.9 – § . Tekis shakl ixtiyoriy nuqtasi tezligini qutb nuqtadan foydalanib aniqlash",
+                path: '/TekisShaklIxtiyoriy58'
+            },
+            {
+                id: 9,
+                name: "5.10-dars",
+                mavzu: " 5.10 – § Tekis shakl nuqtalarining tezlanishi",
+                path: '/TekisShaklTezlanishi59'
+            },
+            
+            
+            
+            
            
         ]
     }

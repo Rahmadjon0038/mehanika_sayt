@@ -97,7 +97,7 @@ function Navbar() {
       </div>
 
       <Modal
-        title="Select Lesson"
+        title="Mavzu tanlash"
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
