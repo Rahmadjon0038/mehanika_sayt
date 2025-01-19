@@ -8,7 +8,7 @@ const TekisShaklTezlanishi59 = () => {
     return (
         <>
             <Navbar />
-            <div className="p-6 max-w-[1400px] mx-auto mt-10 pt-20">
+            <div className="p-6 max-w-[1940px] mx-auto mt-10 pt-20">
                 <h1 className="text-2xl font-bold mb-6 text-center">
                     5.10 – §. Tekis shakl nuqtalarining tezlanishi
                 </h1>

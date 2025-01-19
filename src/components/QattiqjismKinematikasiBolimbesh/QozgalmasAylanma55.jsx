@@ -9,7 +9,7 @@ const QozgalmasAylanmamain55 = () => {
     return (
         <>
             <Navbar />
-            <div className="p-6 max-w-[1400px] mx-auto mt-10 pt-20">
+            <div className="p-6 max-w-[1940px] mx-auto mt-10 pt-20">
                 <h1 className="text-2xl font-bold mb-6 text-center">
                     5.5 – §. Qo’zg’almas o’q atrofidagi aylanma harakatdagi jism nuqtalarining tezlanishi
                 </h1>

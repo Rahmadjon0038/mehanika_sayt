@@ -327,6 +327,31 @@ export const bolimlar = [
             
            
         ]
-    }
+    },
+    {
+        id: 6,
+        name: "6-bob",
+        bobname: "6-bob. NUQTANING  MURAKKAB  HARAKATI",
+        children: [
+            {
+                id: 1,
+                name: "6.1-dars",
+                mavzu: " 6.1 – §.Asosiy tushunchalar. Absolyut harakat",
+                path: '/AsosiyTushunchalar61'
+            },
+            {
+                id: 2,
+                name: "6.2-dars",
+                mavzu: " 6.2 – §.Murakkab harakatdagi nuqtaning absolyut tеzligini aniqlash  ",
+                path: '/MurakkabXarakattadagi62'
+            },
+            {
+                id: 3,
+                name: "6.3-dars",
+                mavzu: " 6.3 – §.Murakkab harakatdagi nuqtaning absоlyut tеzlanishini aniqlash (Kоriоlis tеоrеmasi) ",
+                path: '/Murakkabharakatdaginuqta63'
+            },
+        ]
+    },
 ]
 

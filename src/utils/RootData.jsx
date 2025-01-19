@@ -45,6 +45,9 @@ import QattiqJismningHarakati56 from '../components/QattiqjismKinematikasiBolimb
 import TekisParalelHarakatDagi57 from '../components/QattiqjismKinematikasiBolimbesh/TekisParalelHarakatDagi57'
 import TekisShaklIxtiyoriy58 from '../components/QattiqjismKinematikasiBolimbesh/TekisShaklIxtiyoriy58'
 import TekisShaklTezlanishi59 from '../components/QattiqjismKinematikasiBolimbesh/TekisShaklTezlanishi59'
+import AsosiyTushunchalar61 from '../components/NuqataningMurakkabXarakatiBob6/AsosiyTushunchalar61'
+import MurakkabXarakattadagi62 from '../components/NuqataningMurakkabXarakatiBob6/MurakkabXarakattadagi62'
+import Murakkabharakatdaginuqta63 from '../components/NuqataningMurakkabXarakatiBob6/Murakkabharakatdaginuqta63'
 
 export const rootdata = [
     {
@@ -278,7 +281,22 @@ export const rootdata = [
         name: <TekisShaklTezlanishi59 />,
         path: "/TekisShaklTezlanishi59"
     },
+    {
+        id: 45,
+        name: <AsosiyTushunchalar61 />,
+        path: "/AsosiyTushunchalar61"
+    },
+    {
+        id: 46,
+        name: <MurakkabXarakattadagi62 />,
+        path: "/MurakkabXarakattadagi62"
+    },
     
+    {
+        id: 47,
+        name: <Murakkabharakatdaginuqta63 />,
+        path: "/Murakkabharakatdaginuqta63"
+    },
     
     
 

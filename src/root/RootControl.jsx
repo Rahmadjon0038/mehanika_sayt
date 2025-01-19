@@ -6,6 +6,7 @@ import ArrowButtons from '../components/home/ArrowButtons'
 
 
 
+
 function RootControl() {
   const { pathname } = useLocation()
   useEffect(() => {
@@ -19,6 +20,7 @@ function RootControl() {
           <Route key={item.id} path={item.path} element={item.name} />
         ))}
       </Routes>
+{/*  7 bobga start */}
     </div>
   )
 }

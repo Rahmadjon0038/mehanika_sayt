@@ -271,14 +271,33 @@ export const mavzuData = [
     },
     {
         id: 44,
-        name: "5.19-dars",
+        name: "5.10-dars",
         mavzu: "  5.10 – § Tekis shakl nuqtalarining tezlanishi",
         path:"/TekisShaklTezlanishi59"
     },
-
+    {
+        id: 45,
+        name: "6.1-dars",   
+        mavzu: "  6.1– § Asosiy tushunchalar. Absolyut harakat",
+        path:"/AsosiyTushunchalar61"
+    },
+    {
+        id: 46,
+        name: "6.2-dars",   
+        mavzu: "  6.2– § Murakkab harakatdagi nuqtaning absolyut tеzligini aniqlash ",
+        path:"/MurakkabXarakattadagi62"
+    },
+    {
+        id: 47,
+        name: "6.3-dars",   
+        mavzu: "  6.3– § Murakkab harakatdagi nuqtaning absоlyut tеzlanishini aniqlash (Kоriоlis tеоrеmasi) ",
+        path:"/Murakkabharakatdaginuqta63"
+    },
     
     
+    
 
+    
     
    
     
