@@ -48,6 +48,13 @@ import TekisShaklTezlanishi59 from '../components/QattiqjismKinematikasiBolimbes
 import AsosiyTushunchalar61 from '../components/NuqataningMurakkabXarakatiBob6/AsosiyTushunchalar61'
 import MurakkabXarakattadagi62 from '../components/NuqataningMurakkabXarakatiBob6/MurakkabXarakattadagi62'
 import Murakkabharakatdaginuqta63 from '../components/NuqataningMurakkabXarakatiBob6/Murakkabharakatdaginuqta63'
+import Tushuncha71 from '../components/ModdinNuqtadinamikasibob7/AsosiyTushunchalar71'
+import DinamikaningAsosiyT72 from '../components/ModdinNuqtadinamikasibob7/DinamikaningAsosiyT72'
+import MehanikOlchovBirliklari73 from '../components/ModdinNuqtadinamikasibob7/MehanikOlchovBirliklari73'
+import ModdiyNuqataDiferensialteng74 from '../components/ModdinNuqtadinamikasibob7/ModdiyNuqataDiferensialteng74'
+import ModdinyNuqtaDInamikasi75 from '../components/ModdinNuqtadinamikasibob7/ModdinyNuqtaDInamikasi75'
+import MOddiyNuqta76 from '../components/ModdinNuqtadinamikasibob7/MOddiyNuqta76'
+import ModdiyNuqtaUchun77 from '../components/ModdinNuqtadinamikasibob7/ModdiyNuqtaUchun77'
 
 export const rootdata = [
     {
@@ -291,16 +298,60 @@ export const rootdata = [
         name: <MurakkabXarakattadagi62 />,
         path: "/MurakkabXarakattadagi62"
     },
-    
+
     {
         id: 47,
         name: <Murakkabharakatdaginuqta63 />,
         path: "/Murakkabharakatdaginuqta63"
     },
+
+
+    // 7-bolim
+    {
+        id: 48,
+        name: <Tushuncha71 />,
+        path: "/Tushuncha71"
+    },
+    {
+        id: 49,
+        name: <DinamikaningAsosiyT72 />,
+        path: "/DinamikaningAsosiyT72"
+    },
+    {
+        id: 50,
+        name: <MehanikOlchovBirliklari73 />,
+        path: "/MehanikOlchovBirliklari73"
+    },
+    {
+        id: 51,
+        name: <ModdiyNuqataDiferensialteng74 />,
+        path: "/ModdiyNuqataDiferensialteng74"
+    },
+    {
+        id: 52,
+        name: <ModdinyNuqtaDInamikasi75 />,
+        path: "/ModdinyNuqtaDInamikasi75"
+    },
+    {
+        id: 53,
+        name: <MOddiyNuqta76 />,
+        path: "/MOddiyNuqta76"
+    },
+
+    {
+        id: 54,
+        name: <ModdiyNuqtaUchun77 />,
+        path: "/ModdiyNuqtaUchun77"
+    },
     
     
 
     
+
+
+
+
+
 
 
 

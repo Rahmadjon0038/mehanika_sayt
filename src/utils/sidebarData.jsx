@@ -253,7 +253,7 @@ export const bolimlar = [
                 mavzu: " 4.4 – §.Nuqta harakatini o'rganishga doir masalalar",
                 path: '/NuqtaharakatiMasalalar44'
             },
-           
+
         ]
     },
     // ====================================
@@ -270,7 +270,7 @@ export const bolimlar = [
                 path: '/IlgarilanmaHarakat51'
             },
 
-            
+
             {
                 id: 2,
                 name: "5.2-dars",
@@ -284,7 +284,7 @@ export const bolimlar = [
                 path: '/BurchakTezlik53'
             },
 
-       
+
             {
                 id: 4,
                 name: "5.4-dars",
@@ -321,13 +321,14 @@ export const bolimlar = [
                 mavzu: " 5.10 – § Tekis shakl nuqtalarining tezlanishi",
                 path: '/TekisShaklTezlanishi59'
             },
-            
-            
-            
-            
-           
+
+
+
+
+
         ]
     },
+    // 6 bolim
     {
         id: 6,
         name: "6-bob",
@@ -351,6 +352,64 @@ export const bolimlar = [
                 mavzu: " 6.3 – §.Murakkab harakatdagi nuqtaning absоlyut tеzlanishini aniqlash (Kоriоlis tеоrеmasi) ",
                 path: '/Murakkabharakatdaginuqta63'
             },
+        ]
+    },
+    
+    // 7-bolim
+
+    {
+        id: 7,
+        name: "7-bob",
+        bobname: "7 - bob MODDIY NUQTA DINAMIKASI",
+        children: [
+            {
+                id: 1,
+                name: "7.1-dars",
+                mavzu: " 7.1 – §.Asosiy tushunchalar. Amalda uchraydigan ba’zi kuchlarning tasnifi.",
+                path: '/Tushuncha71'
+            },
+            {
+                id: 2,
+                name: "7.2-dars",
+                mavzu: " 7.2 – §. Dinamikaning asosiy qonunlari",
+                path: '/DinamikaningAsosiyT72'
+            },
+            {
+                id: 3,
+                name: "7.3-dars",
+                mavzu: " 7.3 – §.  Nuqta harakatini o'rganishga doir masalalar",
+                path: '/MehanikOlchovBirliklari73'
+            },
+            {
+                id: 4,
+                name: "7.4-dars",
+                mavzu: " 7.4 – § Moddiy nuqtaning harakat differensial tenglamalari",
+                path: '/ModdiyNuqataDiferensialteng74'
+            },
+            {
+                id: 5,
+                name: "7.5-dars",
+                mavzu: " 7.5 – §  Moddiy nuqta dinamikasining ikki asosiy masalasi",
+                path: '/ModdinyNuqtaDInamikasi75'
+            },
+            {
+                id: 6,
+                name: "7.6-dars",
+                mavzu: " 7.6 – § Moddiy nuqta dinamikasining birinchi asosiy masalasini yechishga doir masalalar",
+                path: '/MOddiyNuqta76'
+            },
+            {
+                id: 7,
+                name: "7.7-dars",
+                mavzu: " 7.7 – § Moddiy nuqta uchun Dalamber prinsipi (Kinetostatika usuli)",
+                path: '/ModdiyNuqtaUchun77'
+            },
+
+            
+
+            
+            
+
         ]
     },
 ]

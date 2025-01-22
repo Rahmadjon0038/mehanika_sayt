@@ -13,7 +13,7 @@ function ArrowButtons() {
   }
 
 
-  const nextLesson = () => {}
+  const nextLesson = () => {} 
   const oldLesson = () => {}
 
 
