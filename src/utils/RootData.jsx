@@ -71,6 +71,16 @@ import MarkazgaVaOqqa85 from '../components/ModdiyNUqtalarSistemasiDinamikasibol
 import TekislikksaNisBatan86 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/TekislikksaNisBatan86'
 import JismNingParalel87 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/JismNingParalel87'
 import BirjinsLIOddiyShakl88 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/BirjinsLIOddiyShakl88'
+import SistemaMasalalar91 from '../components/MehanikSistemabolim9/SistemaMasalalar91'
+import Qattiqjismning92 from '../components/MehanikSistemabolim9/Qattiqjismning92'
+import MexankSisteme93 from '../components/MehanikSistemabolim9/MexankSisteme93'
+import Sistemeharakat94 from '../components/MehanikSistemabolim9/Sistemeharakat94'
+import Markazga95 from '../components/MehanikSistemabolim9/Markazga95'
+import Kinetik96 from '../components/MehanikSistemabolim9/Kinetik96'
+import QozgalmasOq97 from '../components/MehanikSistemabolim9/QozgalmasOq97'
+import QattiqJismning98 from '../components/MehanikSistemabolim9/QattiqJismning98'
+import MexanikSxema99 from '../components/MehanikSistemabolim9/MexanikSxema99'
+import MexanikOzgarish910 from '../components/MehanikSistemabolim9/MexanikOzgarish910'
 
 export const rootdata = [
     {
@@ -444,9 +454,63 @@ export const rootdata = [
         name: <BirjinsLIOddiyShakl88 />,
         path: "/BirjinsLIOddiyShakl88"
     },
+    {
+        id: 71,
+        name: <SistemaMasalalar91 />,
+        path: "/SistemaMasalalar91"
+    },
+    {
+        id: 72,
+        name: <Qattiqjismning92 />,
+        path: "/Qattiqjismning92"
+    },
+    {
+        id: 73,
+        name: <MexankSisteme93 />,
+        path: "/MexankSisteme93"
+    },
+    {
+        id: 74,
+        name: <Sistemeharakat94 />,
+        path: "/Sistemeharakat94"
+    },
+    {
+        id: 75,
+        name: <Markazga95 />,
+        path: "/Markazga95"
+    },
+    {
+        id: 76,
+        name: <Kinetik96 />,
+        path: "/Kinetik96"
+    },
+    {
+        id: 77,
+        name: <QozgalmasOq97 />,
+        path: "/QozgalmasOq97"
+    },
+    {
+        id: 78,
+        name: <QattiqJismning98 />,
+        path: "/QattiqJismning98"
+    },
+    {
+        id: 79,
+        name: <MexanikSxema99 />,
+        path: "/MexanikSxema99"
+    },
+    
+    {
+        id: 80,
+        name: <MexanikOzgarish910 />,
+        path: "/MexanikOzgarish910"
+    },
     
     
-          
+    
+    
+    
+    
     
 
     

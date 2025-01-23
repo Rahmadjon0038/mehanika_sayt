@@ -433,17 +433,88 @@ export const mavzuData = [
         mavzu: "  8.7– §  Jismning parallel o‘qlarga nisbatan inersiya momentlarini hisoblash (Gyuygens–Shteyner teoremasi)",
         path: '/JismNingParalel87'
     },
-    
+
     {
         id: 70,
         name: "8.8-dars",
         mavzu: "  8.8– § Bir jinsli oddiy shaklli ba’zi jismlarning inersiya momentlarini hisoblash. Masalalar",
         path: '/BirjinsLIOddiyShakl88'
     },
+    {
+        id: 71,
+        name: "9.1-dars",
+        mavzu: "  9.1– §Sistema massalar markazining harakati haqidagi teorema",
+        path: '/SistemaMasalalar91'
+    },
+    {
+        id: 72,
+        name: "9.2-dars",
+        mavzu: "  9.2– § Qattiq jismning ilgarilanma harakat differensial tenglamalari",
+        path: '/Qattiqjismning92'
+    },
+    {
+        id: 73,
+        name: "9.3-dars",
+        mavzu: "  9.3– §  Mexanik sistema harakat miqdorining o‘zgarishi haqidagi teorema",
+        path: '/MexankSisteme93'
+    },
+
+    {
+        id: 74,
+        name: "9.4-dars",
+        mavzu: "  9.4– §  Mexanik sistema harakat miqdori bosh vektorining o‘zgarishi haqidagi teorema",
+        path: '/Sistemeharakat94'
+    },
+
+    {
+        id: 75,
+        name: "9.5-dars",
+        mavzu: "  9.5– §  Mexanik sistemaning markazga va o‘qqa nisbatan kinetik momenti",
+        path: '/Markazga95'
+    },
+    {
+        id: 76,
+        name: "9.6-dars",
+        mavzu: "  9.6– § Mexanik sistema kinetik momentining o‘zgarishi haqidagi teorema. Masalalar",
+        path: '/Kinetik96'
+    },
+    {
+        id: 77,
+        name: "9.7-dars",
+        mavzu: " 9.7 – §  Qo‘zg‘almas o‘q atrofida aylanma harakatdagi qattiq jismning harakat differensial tenglamasi",
+        path: '/QozgalmasOq97'
+    },
+
+    {
+        id: 78,
+        name: "9.8-dars",
+        mavzu: " 9.8 – § Qattiq jismning tekis parallel harakat differensial tenglamasi",
+        path: '/QattiqJismning98'
+    },
+    {
+        id: 79,
+        name: "9.9-dars",
+        mavzu: " 9.9 – §  Mexanik sistema kinetik energiyasi. Masalalar",
+        path: '/MexanikSxema99'
+    },
+    {
+        id: 80,
+        name: "9.10-dars",
+        mavzu: " 9.10 – §Mexanik sistema kinetik energiyasining o‘zgarishi haqidagi teorema",
+        path: '/MexanikOzgarish910'
+    },
+
     
     
-    
-    
+
+
+
+
+
+
+
+
+
 
 
 
