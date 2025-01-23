@@ -55,6 +55,22 @@ import ModdiyNuqataDiferensialteng74 from '../components/ModdinNuqtadinamikasibo
 import ModdinyNuqtaDInamikasi75 from '../components/ModdinNuqtadinamikasibob7/ModdinyNuqtaDInamikasi75'
 import MOddiyNuqta76 from '../components/ModdinNuqtadinamikasibob7/MOddiyNuqta76'
 import ModdiyNuqtaUchun77 from '../components/ModdinNuqtadinamikasibob7/ModdiyNuqtaUchun77'
+import ModdiyNuqta78 from '../components/ModdinNuqtadinamikasibob7/ModdiyNuqta78'
+import ModdiyNuqtaXarakat79 from '../components/ModdinNuqtadinamikasibob7/ModdiyNuqtaXarakat79'
+import ModdiyNuqtaKinetika710 from '../components/ModdinNuqtadinamikasibob7/ModdiyNuqtaKinetika710'
+import QozgalmasOqAtrofi711 from '../components/ModdinNuqtadinamikasibob7/QozgalmasOqAtrofi711'
+import Mahinalar712 from '../components/ModdinNuqtadinamikasibob7/Mahinalar712'
+import MddiyNuqtaTasir713 from '../components/ModdinNuqtadinamikasibob7/MddiyNuqtaTasir713'
+import ModdiyNUqtaKinetik714 from '../components/ModdinNuqtadinamikasibob7/ModdiyNUqtaKinetik714'
+import NuqTaKinetik715ma from '../components/ModdinNuqtadinamikasibob7/NuqTaKinetik715'
+import Mehanika81 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/Mehanika81'
+import IchkivaTashqi82 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/IchkivaTashqi82'
+import MexanikMasssi83 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/MexanikMasssi83'
+import MassalarGemetriyasi84 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/MassalarGemetriyasi84'
+import MarkazgaVaOqqa85 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/MarkazgaVaOqqa85'
+import TekislikksaNisBatan86 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/TekislikksaNisBatan86'
+import JismNingParalel87 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/JismNingParalel87'
+import BirjinsLIOddiyShakl88 from '../components/ModdiyNUqtalarSistemasiDinamikasibolim8/BirjinsLIOddiyShakl88'
 
 export const rootdata = [
     {
@@ -343,6 +359,108 @@ export const rootdata = [
         name: <ModdiyNuqtaUchun77 />,
         path: "/ModdiyNuqtaUchun77"
     },
+    {
+        id: 55,
+        name: <ModdiyNuqta78 />,
+        path: "/ModdiyNuqta78"
+    },
+    {
+        id: 56,
+        name: <ModdiyNuqtaXarakat79 />,
+        path: "/ModdiyNuqtaXarakat79"
+    },
+    {
+        id: 57,
+        name: <ModdiyNuqtaKinetika710 />,
+        path: "/ModdiyNuqtaKinetika710"
+    },
+    {
+        id: 58,
+        name: <QozgalmasOqAtrofi711 />,
+        path: "/QozgalmasOqAtrofi711"
+    },
+
+    {
+        id: 59,
+        name: <Mahinalar712 />,
+        path: "/Mahinalar712"
+    },
+    {
+        id: 60,
+        name: <MddiyNuqtaTasir713 />,
+        path: "/MddiyNuqtaTasir713"
+    },
+    {
+        id: 61,
+        name: <ModdiyNUqtaKinetik714 />,
+        path: "/ModdiyNUqtaKinetik714"
+    },
+    {
+        id: 62,
+        name: <NuqTaKinetik715ma />,
+        path: "/NuqTaKinetik715ma"
+    },
+
+    // ============================================
+    // 8-BOLIM
+   
+    {
+        id: 63,
+        name: <Mehanika81 />,
+        path: "/Mehanika81"
+    },
+    {
+        id: 64,
+        name: <IchkivaTashqi82 />,
+        path: "/IchkivaTashqi82"
+    },
+    {
+        id: 65,
+        name: <MexanikMasssi83 />,
+        path: "/MexanikMasssi83"
+    },
+    {
+        id: 66,
+        name: <MassalarGemetriyasi84 />,
+        path: "/MassalarGemetriyasi84"
+    },
+    {
+        id: 67,
+        name: <MarkazgaVaOqqa85 />,
+        path: "/MarkazgaVaOqqa85"
+    },
+    {
+        id: 68,
+        name: <TekislikksaNisBatan86 />,
+        path: "/TekislikksaNisBatan86"
+    },
+    {
+        id: 69,
+        name: <JismNingParalel87 />,
+        path: "/JismNingParalel87"
+    },
+    {
+        id: 70,
+        name: <BirjinsLIOddiyShakl88 />,
+        path: "/BirjinsLIOddiyShakl88"
+    },
+    
+    
+          
+    
+
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+
+    
     
     
 

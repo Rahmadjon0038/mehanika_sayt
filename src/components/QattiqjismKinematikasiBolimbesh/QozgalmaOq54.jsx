@@ -14,7 +14,6 @@ const QozgalmaOq54 = () => {
                 <h2 className="text-2xl font-bold mb-4 text-center">
                     5.4 – §. Qo'zg'almas o'q atrofida aylanma harakatdagi jism ixtiyoriy nuqtasining tezligi
                 </h2>
-
                 <p className="mb-4">
                     Qo'zg'almas o'q atrofida aylanma harakat qilayotgan qattiq jism ixtiyoriy nuqta
                     tezligini aniqlashni ko'rib chiqamiz. Qattiq jismning aylanma harakat qonuni{" "}

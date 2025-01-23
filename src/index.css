@@ -15,8 +15,6 @@ a.active{
   }
   
 
-
-
   .button {
     display: block;
     position: relative;
@@ -100,5 +98,9 @@ a.active{
   
 
 
+.imgcontainer{
+  display: grid;
+  grid-template-columns: repeat();
+}
 
   

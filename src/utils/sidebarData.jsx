@@ -354,7 +354,7 @@ export const bolimlar = [
             },
         ]
     },
-    
+
     // 7-bolim
 
     {
@@ -404,12 +404,134 @@ export const bolimlar = [
                 mavzu: " 7.7 – § Moddiy nuqta uchun Dalamber prinsipi (Kinetostatika usuli)",
                 path: '/ModdiyNuqtaUchun77'
             },
+            {
+                id: 8,
+                name: "7.8-dars",
+                mavzu: " 7.8 – § Moddiy nuqta dinamikasining ikkinchi asosiy masalasini yechishga doir masalalar",
+                path: '/ModdiyNuqta78'
+            },
+            {
+                id: 9,
+                name: "7.9-dars",
+                mavzu: " 7.9 – §  Moddiy nuqta harakat miqdorining o’zgarishi haqidagi teorema",
+                path: '/ModdiyNuqtaXarakat79'
+            },
+            {
+                id: 10,
+                name: "7.10-dars",
+                mavzu: " 7.10 – § Moddiy nuqta kinetik energiyasi. Kuchning bajargan ishi. Quvvat",
+                path: '/ModdiyNuqtaKinetika710'
+            },
+            {
+                id: 11,
+                name: "7.11-dars",
+                mavzu: " 7.11 – § Qo’zg’almas o’q atrofida aylanma harakatdagi jismga qo’yilgan kuchning bajargan ishini hisoblash",
+                path: '/QozgalmasOqAtrofi711'
+            },
+            {
+                id: 12,
+                name: "7.12-dars",
+                mavzu: " 7.12 – § Mashinalarning mexanik foydali ish koeffitsiyenti",
+                path: '/Mahinalar712'
+            },
+            {
+                id: 13,
+                name: "7.13-dars",
+                mavzu: " 7.13 – § Mashinalarning mexanik foydali ish koeffitsiyenti",
+                path: '/MddiyNuqtaTasir713'
+            },
+            {
+                id: 13,
+                name: "7.13-dars",
+                mavzu: " 7.13 – §Moddiy nuqtaga ta’sir qiluvchi ba’zi bir kuchlarning bajargan ishini hisoblash. Masalalar",
+                path: '/MddiyNuqtaTasir713'
+            },
+            {
+                id: 14,
+                name: "7.14-dars",
+                mavzu: " 7.14 – § Moddiy nuqta kinetik energiyasining o’zgarishi haqidagi teorema. Masalalar",
+                path: '/ModdiyNUqtaKinetik714'
+            },
+            {
+                id: 15,
+                name: "7.15-dars",
+                mavzu: " 7.15 – § Nuqta kinetik energiyasining o’zgarishi haqidagi teoremani qo’llashga doir masalalar.",
+                path: '/NuqTaKinetik715ma'
+            },
+        ]
 
+        // =====================================
+        // 8-BOLIM
+
+
+    },
+
+    // ===
+    // 8-BOLIM
+    {
+        id: 8,
+        name: "8-bob",
+        bobname: "8 -  MODDIY NUQTALAR SISTEMASI DINAMIKASI  MASSALAR GEOMETRIYASI",
+        children: [
+            {
+                id: 1,
+                name: "8.1-dars",
+                mavzu: " 8.1 – §. Mexanik sistema massasi. Mexanik sistema massalar markazi",
+                path: '/Mehanika81'
+            },
+            {
+                id: 2,
+                name: "8.2-dars",
+                mavzu: " 8.2 – §.Ichki va tashqi kuchlar. Ichki kuchlarning xossalari",
+                path: '/IchkivaTashqi82'
+            },
+            {
+                id: 3,
+                name: "8.3-dars",
+                mavzu: " 8.3 – §  Mexanik sistema harakat differensial tenglamalari",
+                path: '/MexanikMasssi83'
+            },
+            {
+                id: 4,
+                name: "8.4-dars",
+                mavzu: " 8.4 – § Massalar geometriyasi",
+                path: '/MassalarGemetriyasi84'
+            },
+            {
+                id: 5,
+                name: "8.5-dars",
+                mavzu: " 8.5 – § Markazga va o‘qqa nisbatan inersiya momentlari. Inersiya radiusi",
+                path: '/MarkazgaVaOqqa85'
+            },
+            {
+                id: 6,
+                name: "8.6-dars",
+                mavzu: " 8.6 – §Tekislikka nisbatan inersiya momenti. Koordinata o‘qlariga nisbatan inersiya momentlari. Bosh inersiya o‘qlari",
+                path: '/TekislikksaNisBatan86'
+            },
+            {
+                id: 7,
+                name: "8.7-dars",
+                mavzu: " 8.7 – § Jismning parallel o‘qlarga nisbatan inersiya momentlarini hisoblash (Gyuygens–Shteyner teoremasi)",
+                path: '/JismNingParalel87'
+            },
+
+            {
+                id: 8,
+                name: "8.8-dars",
+                mavzu: "  8.8– § Bir jinsli oddiy shaklli ba’zi jismlarning inersiya momentlarini hisoblash. Masalalar",
+                path: '/BirjinsLIOddiyShakl88'
+            },
+          
             
 
             
             
 
+            
+
+
+            
         ]
     },
 ]
