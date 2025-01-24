@@ -78,7 +78,6 @@ function ForceMoment() {
                             className="mx-auto shadow-lg sm:w-3/5 lg:w-1/3"
                         />
                     </div>
-                    <NavigationButtons/>
                 </div>
             </div>
         </>

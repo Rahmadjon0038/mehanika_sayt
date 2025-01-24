@@ -12,7 +12,7 @@ function Home() {
                         <img
                             src={user}
                             alt="User"
-                            className="w-52 h-52 md:w-80 md:h-80 lg:w-[420px] lg:h-[420px] rounded-full mx-auto lg:mx-0 border-4 border-white shadow-lg transform transition-transform duration-300 hover:scale-105"
+                            className="w-44 h-44 md:w-80 md:h-80 lg:w-[420px] lg:h-[420px] rounded-full mx-auto lg:mx-0 border-4 border-white shadow-lg transform transition-transform duration-300 hover:scale-105 "
                         />
                         <div className="text-center lg:text-left space-y-4 text-white">
                             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">

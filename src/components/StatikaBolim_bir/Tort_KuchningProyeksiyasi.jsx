@@ -178,7 +178,6 @@ function ProjectionAndProblems() {
                     <p className="mb-4">Natija:</p>
                     <BlockMath math={"F_{total} = 1 \\sin(30^\\circ) + 2 \\cos(45^\\circ) - 3 \\cos(60^\\circ) - 4"} />
                     <p className="mb-4">Javob: <InlineMath math={"-3.58 N"} /></p>
-                    <NavigationButtons/>
                 </div>
             </div>
         </>

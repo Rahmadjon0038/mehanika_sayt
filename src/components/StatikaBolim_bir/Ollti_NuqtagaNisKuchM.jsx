@@ -91,7 +91,7 @@ function MomentVector() {
                     <BlockMath math={"M_o(\\vec{F}) = \\sqrt{(yF_z - zF_y)^2 + (zF_x - xF_z)^2 + (xF_y - yF_x)^2}"} />
                     <p className="mb-4">(1.16)</p>
 
-                    <NavigationButtons/>
+                  
                 </div>
             </div>
         </>

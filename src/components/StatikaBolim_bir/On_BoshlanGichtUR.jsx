@@ -152,7 +152,7 @@ function ConnectionsAndReactions() {
             Mexanika masalalarini yechishda, bog’lanishdagi jismni bog’liqligidan ozod qilib, bog’lanish ta’sirini reaksiya kuchi bilan almashtirib,
             aktiv va passiv kuchlar ta’siridagi **erkin jism** deb qaraladi.
           </p>
-          <NavigationButtons/>
+         
         </div>
       </div>
     </>

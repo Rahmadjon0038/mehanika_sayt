@@ -122,7 +122,6 @@ function CoupleMoment() {
                         Juft momenti juft yotgan tekislikka perpendikulyar vektor kattalik bo’lib, miqdori juft tashkil qiluvchi kuchlardan biri bilan juft yelkasining ko’paytmasiga teng, yo’nalishi uchidan qaralganda, juft kuch jismni soat miliga teskari aylantirayotgandek ko’rinishida yo’naltiriladi.
                         Ta’rifdan ko’rinadiki, juft momenti erkin vektor bo’lib, qo’yilish nuqtasi aniqlanmagan. Juft momenti nolga teng bo’lishi uchun yelkasi    d=0    bo’lishi kerak, bu holda   F ⃗1   va   F ⃗2     kuchlar bir to’g’ri chiziqda yotadi va muvozanatlashuvchi kuchlar sistemasini tashkil qiladi.
                     </p>
-                    <NavigationButtons/>
                 </div>
             </div>
         </>

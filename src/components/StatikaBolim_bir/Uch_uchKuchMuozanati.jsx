@@ -146,7 +146,6 @@ function Uch_uchKuchMuozanati() {
                     masalalar yechishda geometriya formulalaridan foydalanilsa, masala geometrik usulda yechildi deyiladi.
                 </p>
 
-                <NavigationButtons/>
                 </div>
             </div>
         </>

@@ -130,7 +130,7 @@ function Ikki_axsioma() {
                         Demak, uchta kuch o’zarо muvozanatda bo’lsa, ular o’zaro bir nuqtada kesishadi va kuchlarning ta’sir chiziqlari uchburchak hosil qiladi.
                     </p>
 
-                   <NavigationButtons/>
+                
                 </div>
             </div>
         </>

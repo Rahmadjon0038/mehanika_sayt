@@ -46,7 +46,6 @@ function VarignonTheorem() {
                     <BlockMath math={"mom_o(\\vec{R}) = mom_o(\\vec{R}_x) + mom_o(\\vec{R}_y) + mom_o(\\vec{R}_z)"} />
                     <p className="mb-4">(1.17)</p>
                     <p className="mb-4">Teorema isbotlandi.</p>
-                    <NavigationButtons/>
                 </div>
             </div>
         </>

@@ -1,25 +1,48 @@
-import { Button, Pagination } from 'antd'
-import React from 'react'
-import { rootdata } from '../../utils/RootData';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-function ArrowButtons() {
+import { rootdata } from '../../utils/RootData';
 
-  const nav = useNavigate()
+function ArrowButtons({ pathname }) {
+  const nav = useNavigate();
 
-  const onChange = (e) => {
-    const num = rootdata.filter((v)=>e === v?.id)[0]
-    localStorage.setItem("page",e)
-    nav(num?.path || "/")
-  }
+  const nextLesson = () => {
+    const currentLesson = rootdata.find((lesson) => lesson.path === pathname);
+    if (!currentLesson) return;
 
+    const nextLesson = rootdata.find((lesson) => lesson.id === currentLesson.id + 1);
+    if (nextLesson) {
+      nav(nextLesson.path);
+    }
+  };
 
-  const nextLesson = () => {} 
-  const oldLesson = () => {}
+  const oldLesson = () => {
+    const currentLesson = rootdata.find((lesson) => lesson.path === pathname);
+    if (!currentLesson) return;
 
+    const previousLesson = rootdata.find((lesson) => lesson.id === currentLesson.id - 1);
+    if (previousLesson) {
+      nav(previousLesson.path);
+    }
+  };
 
   return (
-    <Pagination style={{"width": "100%"}} responsive="1"  defaultCurrent={localStorage.getItem("page") || "1"} total={rootdata.length *10} onChange={onChange} />
-  )
+    <div className="py-12 flex justify-center">
+      <div className="flex gap-12">
+        <button
+          onClick={oldLesson}
+          className="active:bg-blue-800 bg-blue-600 text-white text-xl px-6 py-3 rounded-sm"
+        >
+          <i className="fa-solid fa-arrow-left"></i>
+        </button>
+        <button
+          onClick={nextLesson}
+          className="active:bg-blue-800 bg-blue-600 text-white text-xl px-6 py-3 rounded-sm"
+        >
+          <i className="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  );
 }
 
-export default ArrowButtons
+export default ArrowButtons;

@@ -3,7 +3,6 @@ import { BlockMath, InlineMath } from "react-katex";
 import "katex/dist/katex.min.css";
 import image1 from '../../assets/image1.png';
 import Navbar from "../Navbar";
-import NavigationButtons from "../home/ArrowButtons";
 
 function Bir_KuchKuchlarsistemasiTengsiretuvchikuch() {
     return (
@@ -89,7 +88,7 @@ function Bir_KuchKuchlarsistemasiTengsiretuvchikuch() {
                         ko’rinishda yoziladi.
                     </p>
 
-                    <NavigationButtons/>
+                   
                 </div>
             </div>
         </>

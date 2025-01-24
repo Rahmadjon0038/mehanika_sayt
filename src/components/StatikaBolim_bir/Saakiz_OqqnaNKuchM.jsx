@@ -274,7 +274,6 @@ function ForceMomentOnAxis() {
                     <p className="mb-4">
                         Shunday qilib, <InlineMath>{'Oz'}</InlineMath> o‘qqa nisbatan kuchning momenti 0.71 N·m ga teng bo‘ladi.
                     </p>
-                    <NavigationButtons/>
                 </div>
             </div>
         </>
