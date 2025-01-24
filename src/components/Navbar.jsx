@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { bolimlar } from "../utils/sidebarData";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { mavzuData } from '../root/MavzuData'
 import { FaWindowClose } from "react-icons/fa";
 import { Button, Modal ,Input} from 'antd';
@@ -47,8 +47,9 @@ function Navbar() {
     }
   }, [open, searchOpen])
 
+  const navigate = useNavigate();
   return (
-    <div className="fixed border-b w-full top-0 h-20 bg-white px-4 z-50 flex items-center justify-between">
+    <div className=" fixed max-w-[1940px]  border-b border-l  border-r w-full top-0 h-20 bg-white px-4 z-50 flex items-center justify-between">
       {searchOpen && (
         <div className="modal z-50 bg-slate-500 w-[90%] p-6 absolute left-[50%] translate-x-[-50%] rounded-lg text-white top-24">
           {mavzuData?.filter((i) =>
@@ -72,7 +73,7 @@ function Navbar() {
 
       {searchOpen && <div onClick={closeSerach} className="bg-black/20 backdrop-blur-sm absolute w-full min-h-[120vh] top-20 left-0 "></div>}
 
-      <h1 className="text-xl text-slate-700">Amaliy mexanika</h1>
+      <h1 onClick={()=>navigate('/')} className="text-xl text-slate-700 cursor-pointer">Amaliy mexanika</h1>
    
       <div className="flex items-center max-md:hidden bg-gray-100 rounded-full px-4 py-2 w-full max-w-md mx-auto">
         <span className="text-gray-500 mr-2"></span>

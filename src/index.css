@@ -104,3 +104,9 @@ a.active{
 }
 
   
+
+/* ////////////////////////////////////////////////////////// */
+.homeimg{
+  background: url('../public//homeimg.png');
+  background-size: cover;
+}
