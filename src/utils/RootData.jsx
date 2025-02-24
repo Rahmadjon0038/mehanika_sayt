@@ -81,6 +81,7 @@ import QozgalmasOq97 from '../components/MehanikSistemabolim9/QozgalmasOq97'
 import QattiqJismning98 from '../components/MehanikSistemabolim9/QattiqJismning98'
 import MexanikSxema99 from '../components/MehanikSistemabolim9/MexanikSxema99'
 import MexanikOzgarish910 from '../components/MehanikSistemabolim9/MexanikOzgarish910'
+import QuizBolim1 from '../components/StatikaBolim_bir/QuizBolim1'
 
 export const rootdata = [
     {
@@ -505,7 +506,12 @@ export const rootdata = [
         name: <MexanikOzgarish910 />,
         path: "/MexanikOzgarish910"
     },
-    
+
+
+
+
+
+
     
     
     

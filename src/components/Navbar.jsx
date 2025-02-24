@@ -56,8 +56,8 @@ function Navbar() {
           {mavzuData?.filter((i) =>
             i.mavzu.toLocaleLowerCase().includes(search.toLocaleLowerCase())
           ).length === 0 && (
-            <h1 className="text-xl text-center">Bunday mavzu mavjud emas</h1>
-          )}
+              <h1 className="text-xl text-center">Bunday mavzu mavjud emas</h1>
+            )}
         </div>
       )}
 
@@ -72,7 +72,7 @@ function Navbar() {
         onClick={() => navigate("/")}
         className="text-xl text-slate-700 cursor-pointer"
       >
-        Amaliy mexanika
+        Mexanika
       </h1>
 
       <div className="flex items-center max-md:hidden bg-gray-100 rounded-full px-4 py-2 w-full max-w-md mx-auto">
@@ -107,11 +107,10 @@ function Navbar() {
               <div key={item.id} className="mb-4">
                 <h1
                   onClick={() => setSelected(item.id)}
-                  className={`flex items-center cursor-pointer gap-3 px-3 py-2 rounded-sm ${
-                    selected === item.id
+                  className={`flex items-center cursor-pointer gap-3 px-3 py-2 rounded-sm ${selected === item.id
                       ? "bg-blue-500 text-white"
                       : "hover:bg-blue-500 hover:text-white text-slate-900"
-                  }`}
+                    }`}
                 >
                   {item.name} {item.bobname}
                   <FaAngleDown />
@@ -136,6 +135,19 @@ function Navbar() {
               </div>
             ))}
           </div>
+        </div>
+        <hr />
+        <h1 className="text-xxl text-[blue] mt-2">Bolimlar bo'yicha testlar</h1>
+        <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 text-left gap-2 mt-3">
+          <button onClick={() => navigate('/quzibolim1')} className="text-white bg-blue-400 px6 py-2 ">1-bob test</button>
+          <button onClick={() => navigate('/quzibolim2')} className="text-white bg-blue-400 px6 py-2 ">2-bob test</button>
+          <button onClick={() => navigate('/quzibolim3')} className="text-white bg-blue-400 px6 py-2 ">3-bob test</button>
+          <button onClick={() => navigate('/quzibolim4')}  className="text-white bg-blue-400 px6 py-2 ">4-bob test</button>
+          <button  onClick={() => navigate('/quzibolim5')} className="text-white bg-blue-400 px6 py-2 ">5-boblar test</button>
+          <button onClick={() => navigate('/quzibolim6')}  className="text-white bg-blue-400 px6 py-2 ">6-bobla test</button>
+          <button onClick={() => navigate('/quzibolim7')} className="text-white bg-blue-400 px6 py-2 ">7-bobla test</button>
+          <button  onClick={() => navigate('/quzibolim8')} className="text-white bg-blue-400 px6 py-2 ">8-bobla test</button>
+          <button  onClick={() => navigate('/quzibolim9')} className="text-white bg-blue-400 px6 py-2 ">9-bobla test</button>
         </div>
       </Modal>
     </div>

@@ -66,6 +66,12 @@ export const bolimlar = [
                 mavzu: "Bоg’lanish turlari va bоg’lanish reaksiyа kuchlari",
                 path: "/ConnectionsAndReactions"
             },
+            {
+                id: 11,
+                name: "test",
+                mavzu: "Bo'lim bo'yicha testlar",
+            },
+
         ]
     },
 
@@ -164,7 +170,7 @@ export const bolimlar = [
     {
         id: 3,
         name: "3-bob",
-        bobname: "3 bob. KUCHLAR  SISTEMASINING  MUVOZANAT  SHARTLARI. MASALALAR",
+        bobname: " KUCHLAR  SISTEMASINING  MUVOZANAT  SHARTLARI. MASALALAR",
         children: [
             {
                 id: 1,
@@ -215,9 +221,6 @@ export const bolimlar = [
                 path: '/DumalanibIshqalanishK38'
             },
 
-
-
-
         ]
     },
 
@@ -227,7 +230,7 @@ export const bolimlar = [
     {
         id: 4,
         name: "4-bob",
-        bobname: "4 - bob KINEMATIKA. NUQTA KINEMATIKASI",
+        bobname: " KINEMATIKA. NUQTA KINEMATIKASI",
         children: [
             {
                 id: 1,
@@ -261,7 +264,7 @@ export const bolimlar = [
     {
         id: 5,
         name: "5-bob",
-        bobname: "5 - QATTIQ JISM KINEMATIKASI. QATTIQ JISMNING  SODDA HARAKATLARI",
+        bobname: "QATTIQ JISM KINEMATIKASI. QATTIQ JISMNING  SODDA HARAKATLARI",
         children: [
             {
                 id: 1,
@@ -332,7 +335,7 @@ export const bolimlar = [
     {
         id: 6,
         name: "6-bob",
-        bobname: "6-bob. NUQTANING  MURAKKAB  HARAKATI",
+        bobname: "NUQTANING  MURAKKAB  HARAKATI",
         children: [
             {
                 id: 1,
@@ -360,7 +363,7 @@ export const bolimlar = [
     {
         id: 7,
         name: "7-bob",
-        bobname: "7 - bob MODDIY NUQTA DINAMIKASI",
+        bobname: "MODDIY NUQTA DINAMIKASI",
         children: [
             {
                 id: 1,
@@ -471,7 +474,7 @@ export const bolimlar = [
     {
         id: 8,
         name: "8-bob",
-        bobname: "8 -  MODDIY NUQTALAR SISTEMASI DINAMIKASI  MASSALAR GEOMETRIYASI",
+        bobname: "MODDIY NUQTALAR SISTEMASI DINAMIKASI  MASSALAR GEOMETRIYASI",
         children: [
             {
                 id: 1,
@@ -530,7 +533,7 @@ export const bolimlar = [
     {
         id: 9,
         name: "9-bob",
-        bobname: "9 - MEXANIK  SISTEMA  UCHUN  DINAMIKANING  UMUMIY   TEOREMALARI  VA  ULARNING  QATTIQ JISM HARAKATLARIGA  TATBIQI ",
+        bobname: "MEXANIK  SISTEMA  UCHUN  DINAMIKANING  UMUMIY   TEOREMALARI  VA  ULARNING  QATTIQ JISM HARAKATLARIGA  TATBIQI ",
         children: [
             {
                 id: 1,
