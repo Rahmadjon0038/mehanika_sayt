@@ -103,7 +103,12 @@ a.active{
   grid-template-columns: repeat();
 }
 
-  
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: blue;
+}
 
 /* ////////////////////////////////////////////////////////// */
 /* .homeimg{

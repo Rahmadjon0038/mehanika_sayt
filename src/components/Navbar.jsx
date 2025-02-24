@@ -1,24 +1,27 @@
 import React, { useEffect, useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { bolimlar } from "../utils/sidebarData";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { mavzuData } from "../root/MavzuData";
 import { Modal } from "antd";
 
 function Navbar() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [open, setOpen] = useState(false);
-  const [selected, setSelected] = useState(null); // Tanlangan bo'limni saqlash uchun
+  const [selected, setSelected] = useState(null);
   const [searchOpen, setSearchOpen] = useState(false);
   const [search, setSearch] = useState("");
 
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setIsModalOpen(false)
+  }, [pathname])
   const showModal = () => {
     setIsModalOpen(true);
   };
 
   const handleCancel = () => {
     setIsModalOpen(false);
-    setSelected(null); // Modal yopilganda tanlangan bo'limni tozalash
+    setSelected(null);
   };
 
   const closeSerach = (e) => {
@@ -34,7 +37,7 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <div className="fixed max-w-[1940px] border-b border-l border-r w-full top-0 h-20 bg-white px-4 z-50 flex items-center justify-between">
+    <div className="fixed max-w-[1940px] left-[50%] translate-x-[-50%] border-b w-full top-0 h-20 bg-white px-4 z-50 flex items-center justify-between ">
       {searchOpen && (
         <div className="modal z-50 bg-slate-500 w-[90%] p-6 absolute left-[50%] translate-x-[-50%] rounded-lg text-white top-24">
           {mavzuData
@@ -108,15 +111,14 @@ function Navbar() {
                 <h1
                   onClick={() => setSelected(item.id)}
                   className={`flex items-center cursor-pointer gap-3 px-3 py-2 rounded-sm ${selected === item.id
-                      ? "bg-blue-500 text-white"
-                      : "hover:bg-blue-500 hover:text-white text-slate-900"
+                    ? "bg-blue-500 text-white"
+                    : "hover:bg-blue-500 hover:text-white text-slate-900"
                     }`}
                 >
                   {item.name} {item.bobname}
                   <FaAngleDown />
                 </h1>
 
-                {/* Tanlangan bo'lim mavzularini ko'rsatish */}
                 {selected === item.id && (
                   <div className="ml-6 mt-2">
                     {item.children?.map((lesson) => (
@@ -142,12 +144,12 @@ function Navbar() {
           <button onClick={() => navigate('/quzibolim1')} className="text-white bg-blue-400 px6 py-2 ">1-bob test</button>
           <button onClick={() => navigate('/quzibolim2')} className="text-white bg-blue-400 px6 py-2 ">2-bob test</button>
           <button onClick={() => navigate('/quzibolim3')} className="text-white bg-blue-400 px6 py-2 ">3-bob test</button>
-          <button onClick={() => navigate('/quzibolim4')}  className="text-white bg-blue-400 px6 py-2 ">4-bob test</button>
-          <button  onClick={() => navigate('/quzibolim5')} className="text-white bg-blue-400 px6 py-2 ">5-boblar test</button>
-          <button onClick={() => navigate('/quzibolim6')}  className="text-white bg-blue-400 px6 py-2 ">6-bobla test</button>
-          <button onClick={() => navigate('/quzibolim7')} className="text-white bg-blue-400 px6 py-2 ">7-bobla test</button>
-          <button  onClick={() => navigate('/quzibolim8')} className="text-white bg-blue-400 px6 py-2 ">8-bobla test</button>
-          <button  onClick={() => navigate('/quzibolim9')} className="text-white bg-blue-400 px6 py-2 ">9-bobla test</button>
+          <button onClick={() => navigate('/quzibolim4')} className="text-white bg-blue-400 px6 py-2 ">4-bob test</button>
+          <button onClick={() => navigate('/quzibolim5')} className="text-white bg-blue-400 px6 py-2 ">5-bob test</button>
+          <button onClick={() => navigate('/quzibolim6')} className="text-white bg-blue-400 px6 py-2 ">6-bob test</button>
+          <button onClick={() => navigate('/quzibolim7')} className="text-white bg-blue-400 px6 py-2 ">7-bob test</button>
+          <button onClick={() => navigate('/quzibolim8')} className="text-white bg-blue-400 px6 py-2 ">8-bob test</button>
+          <button onClick={() => navigate('/quzibolim9')} className="text-white bg-blue-400 px6 py-2 ">9-bob test</button>
         </div>
       </Modal>
     </div>

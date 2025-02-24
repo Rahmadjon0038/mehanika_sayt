@@ -26,11 +26,11 @@ function RootControl() {
     <div>
       <Navbar/>
       <Routes>
-        {/* <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home />} />
         {rootdata?.map((item) => (
           <Route key={item.id} path={item.path} element={item.name}>
           </Route>
-        ))} */}
+        ))}
           <Route path='quzibolim1' element={<QuizBolim1/>} />
           <Route path='quzibolim2' element={<QuizBolim2/>} />
           <Route path='quzibolim3' element={<Quizbolim3/>} />
