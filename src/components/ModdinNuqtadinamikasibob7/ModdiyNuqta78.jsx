@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import "katex/dist/katex.min.css";
 import image7_11 from '../../assets/bolim@7image/image7_11.png'; // Rasm yo'lini to'g'rilang
 import image7_12 from '../../assets/bolim@7image/image7_12.png'; // Rasm yo'lini to'g'rilang
+import qr from '../../assets/qrcode/lesson78.png'
 
 const ModdiyNuqta78 = () => {
     return (
@@ -13,7 +14,16 @@ const ModdiyNuqta78 = () => {
                 <h2 className="text-2xl font-bold mb-4 text-center">
                     7.8– §. Moddiy nuqta dinamikasining ikkinchi asosiy masalasini yechishga doir masalalar.
                 </h2>
+                <div className="text-center mb-6">
+                    <a href="https://www.youtube.com/watch?v=Tgpj5naDVjI&ab_channel=NAZARIYMEXANIKA">
+                        <img
 
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
                 <p className="mb-4">
                     Moddiy nuqta harakat differensial tenglamasini integrallash yo’li bilan dinamikaning ikkinchi asosiy masalasini yechish quyidagi tartibda amalga oshiriladi:
                 </p>

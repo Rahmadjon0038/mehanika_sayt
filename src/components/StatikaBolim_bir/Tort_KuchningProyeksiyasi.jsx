@@ -9,6 +9,9 @@ import image1_14Qr from '../../assets/image1_14Qr.png'
 import Navbar from "../Navbar";
 import NavigationButtons from "../home/ArrowButtons";
 
+import qr from '../../assets/qrcode/lesson4qr.png'
+
+
 function ProjectionAndProblems() {
     return (
         <>
@@ -18,7 +21,15 @@ function ProjectionAndProblems() {
                     <h1 className="text-2xl font-bold text-center mb-6">
                         1.4 – §. Kuchning o’qdagi va tekislikdagi proeksiyasi
                     </h1>
-
+                    <div className="text-center mb-6">
+                        <a href="https://youtu.be/bmbBh7-jfkM">
+                            <img
+                                src={qr}
+                                alt="Kuch ta'sir chizig'i"
+                                className="mx-auto rounded-lg shadow-lg w-48"
+                            />
+                        </a>
+                    </div>
                     <p className="mb-4">
                         Mexanika masalalarini yechishda, kuchlarni tashkil etuvchilarga ajratishda, kuchning analitik qiymatlarini hisoblashda kuchning oqdagi va tekislikdagi proeksiylari tushunchasi katta ahamiyatga ega.
                     </p>

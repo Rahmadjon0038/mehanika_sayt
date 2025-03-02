@@ -3,6 +3,7 @@ import { InlineMath, BlockMath } from "react-katex";
 import "katex/dist/katex.min.css";
 import Navbar from "../Navbar";
 import image7_4 from '../../assets/bolim@7image/image7_4.png';
+import qr from '../../assets/qrcode/lesson74.png'
 
 const ModdiyNuqataDiferensialteng74 = () => {
   return (
@@ -12,6 +13,16 @@ const ModdiyNuqataDiferensialteng74 = () => {
         <h2 className="text-2xl font-bold mb-4 text-center">
           7.4 – §. Moddiy nuqtaning harakat differensial tenglamalari.
         </h2>
+        <div className="text-center mb-6">
+          <a href="https://youtu.be/rdmC4SMFoUo">
+            <img
+
+              src={qr}
+              alt="Kuch ta'sir chizig'i"
+              className="mx-auto rounded-lg shadow-lg w-48"
+            />
+          </a>
+        </div>
         <p className="mb-4">
           Aytaylik, <InlineMath math={"M"} /> moddiy nuqtaning, biror
           inersial sanoq sistemasiga nisbatan holatini qo’zg’almas{" "}

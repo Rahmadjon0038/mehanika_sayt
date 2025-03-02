@@ -6,6 +6,7 @@ import image3_5 from '../../assets/bolim@3image/image3_5.png';
 import image3_6 from '../../assets/bolim@3image/image3_6.png';
 import image3_7 from '../../assets/bolim@3image/image3_7.png';
 import image3_8 from '../../assets/bolim@3image/image3_8.png';
+import qr from '../../assets/qrcode/lesson34.png'
 
 const TekislikdaKuchlarSystemasiMuvozanati = () => {
     return (
@@ -15,7 +16,16 @@ const TekislikdaKuchlarSystemasiMuvozanati = () => {
                 <h2 className="text-2xl font-bold mb-4 text-center">
                     3.3 – §. Tekislikda joylashgan kuchlar sistemasining muvozanatiga doir masalalar
                 </h2>
+                <div className="text-center mb-6">
+                    <a href="https://www.youtube.com/watch?v=W9pKTzSTnBQ">
+                        <img
 
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
                 {/* a) Tekislikda parallel kuchlar */}
                 <h3 className="text-xl font-semibold mb-2">
                     a) Tekislikda parallel kuchlar

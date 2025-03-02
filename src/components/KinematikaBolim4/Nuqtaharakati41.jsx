@@ -2,10 +2,11 @@ import React from "react";
 import { BlockMath, InlineMath } from "react-katex";
 import Navbar from "../Navbar";
 import "katex/dist/katex.min.css";
-import image4_1 from '../../assets/bolim@4image/image4_1.png'; 
-import image4_2 from '../../assets/bolim@4image/image4_2.png'; 
-import image4_3 from '../../assets/bolim@4image/image4_3.png'; 
-import image4_4 from '../../assets/bolim@4image/image4_4.png'; 
+import image4_1 from '../../assets/bolim@4image/image4_1.png';
+import image4_2 from '../../assets/bolim@4image/image4_2.png';
+import image4_3 from '../../assets/bolim@4image/image4_3.png';
+import image4_4 from '../../assets/bolim@4image/image4_4.png';
+import qr from '../../assets/qrcode/lesson41qr.png'
 
 const NuqtaHarakati = () => {
     return (
@@ -13,23 +14,33 @@ const NuqtaHarakati = () => {
             <Navbar />
             <div className="p-6 max-w-[1940px] mx-auto mt-20">
                 <h2 className="text-2xl font-bold mb-4 text-center">
-                    4.1 – §. Nuqta harakatining berilish usullari. Nuqta harakatining  
+                    4.1 – §. Nuqta harakatining berilish usullari. Nuqta harakatining
                     vektor usulda berilishi. Tezlik va tezlanish vektorlari.
                 </h2>
+                <div className="text-center mb-6">
+                    <a href="https://youtu.be/r6WF6e-x7Ng">
+                        <img
+
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
 
                 <p className="mb-4">
-                    Nuqta harakati o’rganilayotganda uning ko’chishi tushunchasiga duch kelinadi. Nuqtaning harakati va ko’chishi tushunchalari bir biridan farq qiladi. Nuqtaning ko’chishi uning boshlang’ich va oxirgi holatlari hamda vaqt oralig’i bilan aniqlanadi, bunda nuqtaning avvalgi holatdan oxirgi holatga qanday usul bilan o’tishi e’tiborga olinmaydi. 
+                    Nuqta harakati o’rganilayotganda uning ko’chishi tushunchasiga duch kelinadi. Nuqtaning harakati va ko’chishi tushunchalari bir biridan farq qiladi. Nuqtaning ko’chishi uning boshlang’ich va oxirgi holatlari hamda vaqt oralig’i bilan aniqlanadi, bunda nuqtaning avvalgi holatdan oxirgi holatga qanday usul bilan o’tishi e’tiborga olinmaydi.
                 </p>
 
                 <p className="mb-4">
-                    Harakat tushunchasida esa nuqtaning birinchi holatdan ikkinchi holatga vaqtga bog’liq ravishda qanday usul bilan o’tgani, ya’ni boshlang’ich va oxirgi paytlar orasidagi istalgan vaqt uchun fazodagi o’rni hisobga olinadi. 
+                    Harakat tushunchasida esa nuqtaning birinchi holatdan ikkinchi holatga vaqtga bog’liq ravishda qanday usul bilan o’tgani, ya’ni boshlang’ich va oxirgi paytlar orasidagi istalgan vaqt uchun fazodagi o’rni hisobga olinadi.
                 </p>
 
                 <p className="mb-4">
                     Nuqta kinematikasida quyidagi ikki asosiy masala ko’riladi:
                     <ol>
                         <li> berilgan sanoq sistemasiga nisbatan nuqtaning harakatini matematik usulda aniqlash; </li>
-                        <li> nuqtaning berilgan harakat qonuniga ko’ra barcha kinematik xarakteristikalarini (trayektoriya, tezlik, tezlanish va h.k.)  aniqlash.   
+                        <li> nuqtaning berilgan harakat qonuniga ko’ra barcha kinematik xarakteristikalarini (trayektoriya, tezlik, tezlanish va h.k.)  aniqlash.
                         </li>
                     </ol>
                 </p>
@@ -39,7 +50,7 @@ const NuqtaHarakati = () => {
                 </p>
 
                 <p className="mb-4">
-                    Nuqta harakatining asоsan uch xil analitik usulda berilishini ko’rib chiqamiz.      
+                    Nuqta harakatining asоsan uch xil analitik usulda berilishini ko’rib chiqamiz.
                     <ol>
                         <li> Vektоr usuli,  </li>
                         <li> Kооrdinatalar usuli,  </li>
@@ -58,14 +69,14 @@ const NuqtaHarakati = () => {
                         alt="Nuqta harakatining vektor usulda berilishi"
                         className="mx-auto rounded-lg shadow-lg w-full sm:w-3/4 lg:w-1/3"
                     />
-                </div> 
+                </div>
 
                 <p className="mb-4">
                     <InlineMath math={`r = r(t)`} />  formula bilan aniqlanadigan ifoda harakat vektor usulda berilganda, nuqtaning harakat qonuni yoki harakat tenglamasi deyiladi.
                 </p>
 
                 <p className="mb-4">
-                    Vektorlar algebrasidan ma’lumki, boshi qo’zg’almas nuqtaga qo’yilgan vektor uchining vaqt o’tishi bilan fazoda qoldirgan iziga  godograf deyiladi. 
+                    Vektorlar algebrasidan ma’lumki, boshi qo’zg’almas nuqtaga qo’yilgan vektor uchining vaqt o’tishi bilan fazoda qoldirgan iziga  godograf deyiladi.
                     Bu holda, harakatlanayotgan moddiy nuqtaning radius vektori godografi uning trayektoriyasi bilan ustma – ust tushadi.
                 </p>
 
@@ -107,11 +118,11 @@ const NuqtaHarakati = () => {
                 </p>
 
                 <p className="mb-4">
-                    Aytaylik, harakatlanayotgan nuqta biror <InlineMath math={`t`} /> vaqtda <InlineMath math={`M`} /> hоlatda va <InlineMath math={`t_1`} /> vaqtda <InlineMath math={`M_1`} /> hоlatda, bo’lib, <InlineMath math={`\\Delta t = t_1 - t`} /> vaqtda esa <InlineMath math={`\\vec{MM_1} = \\vec{r_1} - \\vec{r} = \\Delta \\vec{r}`} /> ko’chishga erishsin. 
+                    Aytaylik, harakatlanayotgan nuqta biror <InlineMath math={`t`} /> vaqtda <InlineMath math={`M`} /> hоlatda va <InlineMath math={`t_1`} /> vaqtda <InlineMath math={`M_1`} /> hоlatda, bo’lib, <InlineMath math={`\\Delta t = t_1 - t`} /> vaqtda esa <InlineMath math={`\\vec{MM_1} = \\vec{r_1} - \\vec{r} = \\Delta \\vec{r}`} /> ko’chishga erishsin.
                 </p>
 
                 <p className="mb-4">
-                    <InlineMath math={`\\Delta \\vec{r}`} /> radius vektor orttirmasining vaqt orttirmasi <InlineMath math={`\\Delta t`} /> ga nisbati o’rtacha tezlik deyiladi. <InlineMath math={`\\vec{v}^*`} /> harfi bilan belgilanadi. 
+                    <InlineMath math={`\\Delta \\vec{r}`} /> radius vektor orttirmasining vaqt orttirmasi <InlineMath math={`\\Delta t`} /> ga nisbati o’rtacha tezlik deyiladi. <InlineMath math={`\\vec{v}^*`} /> harfi bilan belgilanadi.
                 </p>
 
                 <BlockMath math={`\\vec{v}^* = \\frac{\\Delta \\vec{r}}{\\Delta t}`} />   (4.2)
@@ -121,7 +132,7 @@ const NuqtaHarakati = () => {
                 </p>
 
                 <BlockMath math={`\\vec{v} = \\lim_{{\\Delta t \\to 0}} \\frac{{\\Delta \\vec{r}}}{{\\Delta t}} = \\frac{{d\\vec{r}}}{{dt}}, \\quad \\vec{v} = \\frac{{d\\vec{r}}}{{dt}} = \\dot{\\vec{r}}`} />   (4.3)
-{/* 
+                {/* 
                 <div className="text-center py-6">
                     <img
                         src={image4_2}

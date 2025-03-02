@@ -3,6 +3,7 @@ import { BlockMath, InlineMath } from "react-katex";
 import Navbar from "../Navbar"; // Navbar componentasini import qilish
 import "katex/dist/katex.min.css"; // KaTeX CSS import qilish
 import image2_10 from '../../assets/bolim@2Image/image2_.png';
+import qr from '../../assets/qrcode/lesson5qr.png'
 
 const KuchniKeltirish = () => {
     return (
@@ -12,7 +13,17 @@ const KuchniKeltirish = () => {
                 <h2 className="text-2xl font-bold mb-4 text-center">
                     2.11 – §. Kuchni berilgan markazga keltirish haqida lemma
                 </h2>
+               
+                <div className="text-center mb-6">
+                    <a href=" https://youtu.be/OUxwFfVtseQ">
+                        <img
 
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
                 <h3 className="text-xl font-semibold mb-4">Lemma</h3>
 
                 <p className="mb-4">

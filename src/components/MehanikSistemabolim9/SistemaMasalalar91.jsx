@@ -2,7 +2,8 @@ import React from "react";
 import { BlockMath, InlineMath } from "react-katex";
 import Navbar from "../Navbar";
 import "katex/dist/katex.min.css";
-import  rasm9_1 from '../../assets/bolim@9image/image9_1.png'
+import rasm9_1 from '../../assets/bolim@9image/image9_1.png'
+import qr from '../../assets/qrcode/lesson91.png'
 
 const SistemaMasalalar91 = () => {
     return (
@@ -12,6 +13,16 @@ const SistemaMasalalar91 = () => {
                 <h2 className="text-2xl font-bold mb-4 text-center">
                     9.1-§. Sistema massalar markazining harakati haqidagi teorema
                 </h2>
+                <div className="text-center mb-6">
+                    <a href="https://youtu.be/rdmC4SMFoUo">
+                        <img
+
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
                 <p className="mb-4">
                     Baʼzi masalalarni yechishda agar sistema qattiq jismdan iborat bo‘lsa, mexanik sistema massalar markazining harakatini bilish yetarli bo‘ladi. Massalar markazi harakatining differensial tenglamasini keltirib chiqarish uchun (8.7) ko‘rinishidagi sistema harakat differensial tenglamasidan foydalanamiz. Tenglamalar sistemaning chap va oʻng tomonlarini hadma-had qoʻshib, quyidagi formulani hosil qilamiz:
                 </p>
@@ -85,20 +96,20 @@ const SistemaMasalalar91 = () => {
 
 
                 <p className="mb-4">
-                Bularni massalar markazining koordinatalarini aniqlash (9.3) formulalariga qo‘ysak,
+                    Bularni massalar markazining koordinatalarini aniqlash (9.3) formulalariga qo‘ysak,
                 </p>
-                 <BlockMath math={"x_C = \\frac{m_1x_1 + m_2x_2 + m_3x_3}{m_1 + m_2 + m_3}, \\quad y_C = \\frac{m_1y_1 + m_2y_2 + m_3y_3}{m_1 + m_2 + m_3}"} />
+                <BlockMath math={"x_C = \\frac{m_1x_1 + m_2x_2 + m_3x_3}{m_1 + m_2 + m_3}, \\quad y_C = \\frac{m_1y_1 + m_2y_2 + m_3y_3}{m_1 + m_2 + m_3}"} />
                 <p className="mb-4">
-                 hamda masala shartida berilganlarni e’tiborga olib, hisoblashlar amalga oshirilgandan keyin, izlanayotgan krivoship shatunli mexanizm massalar markazining harakat qonuni quyidagi ko‘rinishda aniqlandi:
+                    hamda masala shartida berilganlarni e’tiborga olib, hisoblashlar amalga oshirilgandan keyin, izlanayotgan krivoship shatunli mexanizm massalar markazining harakat qonuni quyidagi ko‘rinishda aniqlandi:
                 </p>
-                <BlockMath math={"x_C = \\frac{6}{5} l \\cos(\\omega t), \quad y_C = \\frac{2}{5} l \\sin(\\omega t)"}/>
+                <BlockMath math={"x_C = \\frac{6}{5} l \\cos(\\omega t), \quad y_C = \\frac{2}{5} l \\sin(\\omega t)"} />
 
                 <p className="mb-4">
-                Bu tenglamalardan <InlineMath math={"\\omega t"} /> o‘zgaruvchini chiqarib tashlasak, traektoriya tenglamasi kelib chiqadi:
+                    Bu tenglamalardan <InlineMath math={"\\omega t"} /> o‘zgaruvchini chiqarib tashlasak, traektoriya tenglamasi kelib chiqadi:
                 </p>
                 <BlockMath math={"\\frac{x_C^2}{(\\frac{6}{5}l)^2} + \\frac{y_C^2}{(\\frac{2}{5}l)^2} = 1"} />
                 <p className="mb-4">
-                Demak, krivoship shatunli mexanizm massalar markazining traektoriyasi yarim o‘qlari <InlineMath math={"a = \\frac{6}{5}l"} /> ,  <InlineMath math={"b = \\frac{2}{5}l"} /> bo‘lgan ellipsdan iborat ekan.
+                    Demak, krivoship shatunli mexanizm massalar markazining traektoriyasi yarim o‘qlari <InlineMath math={"a = \\frac{6}{5}l"} /> ,  <InlineMath math={"b = \\frac{2}{5}l"} /> bo‘lgan ellipsdan iborat ekan.
                 </p>
 
             </div>

@@ -5,6 +5,7 @@ import 'katex/dist/katex.min.css';
 import image4_9 from '../../assets/bolim@4image/image4_9.png'
 import image4_10 from '../../assets/bolim@4image/image4_10.png'
 import image4_11 from '../../assets/bolim@4image/image4_11.png'
+import qr from '../../assets/qrcode/lesson44qr.png' 
 
 
 const NuqtaharakatiMasalalar44 = () => {
@@ -15,7 +16,16 @@ const NuqtaharakatiMasalalar44 = () => {
                 <h2 className="text-2xl font-bold mb-4 text-center">
                     4.4 – §. Nuqta harakatini o'rganishga doir masalalar
                 </h2>
+                <div className="text-center mb-6">
+                    <a href="https://youtu.be/r6WF6e-x7Ng">
+                        <img
 
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
                 <h3 className="text-xl font-semibold mb-4">4.1-masala: Aylanma harakat</h3>
                 <p>
                     Radiusi <i>r</i> ga teng g'ildirak shakl tekisligiga perpendikulyar va <i>O</i> markazdan o'tuvchi o'q atrofida <InlineMath math={'φ = ωt = const'} /> qonun bo'yicha aylanadi. G'ildirak gardishidagi <i>M</i> nuqtaning Dekart koordinatalaridagi va vektor ko'rinishdagi harakat tenglamalari tuzilsin (4.9 – shakl).

@@ -5,6 +5,7 @@ import "katex/dist/katex.min.css";
 import image3_12 from '../../assets/bolim@3image/image3_12.png'
 import image3_13 from '../../assets/bolim@3image/image3_13.png'
 import image3_14 from '../../assets/bolim@3image/image3_14.png'
+import qr from '../../assets/qrcode/lesson35qr.png'
 
 const IshqalanishMuvozanat = () => {
     return (
@@ -16,7 +17,16 @@ const IshqalanishMuvozanat = () => {
                     3.5– §. Ishqalanishni hisоbga оlganda qattiq jismlar sistemasining
                     muvоzanatini tekshirish. Sirpanishdagi ishqalanish
                 </h2>
+                <div className="text-center mb-6">
+                    <a href="https://www.youtube.com/watch?v=W9pKTzSTnBQ">
+                        <img
 
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
                 {/* Asosiy matn */}
                 <div className="space-y-4">
                     <p>
@@ -73,7 +83,7 @@ const IshqalanishMuvozanat = () => {
                         ya'ni, ishqalanuvchi sirtlar yo'g'lanmagan holatdagi ishqalanish
                         o'rganiladi.
                     </p>
-                    
+
                     <p>
                         Jismning tinch holatidagi sirpanib ishqalanishi qaralsa, bunda
                         ishqalanish kuchi faqat ta'sir qilayotgan aktiv kuchlarga bog'liq
@@ -105,14 +115,14 @@ const IshqalanishMuvozanat = () => {
                         Agar tegib turgan sirtlar ideal silliq bo’lsa, ishqalanish kuchi nоlga teng bo’ladi. Amalda juda ko’p hоllarda sirtlarning g’adir-budirligini, jismlarning materialini hisоbga оlishga  to’g’ri  keladi.  Ishqalanish kuchining asоsiy xоssalarini tushunish uchun   3.13a – shaklda  ko’rsatilgan sxema  bo’yicha  o’tkazilgan tajribani tahlil qilib ko’ramiz.
                     </p>
 
-                  
-           
+
+
                     <p className="mb-4">
                         Qo’zgalmas   <InlineMath math={`D`} />   plita ustida jоylashgan   <InlineMath math={`B`} />   jism   <InlineMath math={`C`} />   blоkdan o’tkazilgan  ipning bir uchiga bog’langan, ipning ikkinchi uchiga ustiga yuk qo’yish mumkin bo’lgan  <InlineMath math={`A`} /> moslama оsilgan. Agar   <InlineMath math={`A`} />   moslamaga sekin-astalik bilan yuk qo’yib, оg’irlikni оshira bоshlasak,  <InlineMath math={`F`} />  ning miqdоri ham оrta bоradi va   <InlineMath math={`B`} />   jismni muvоzanat hоlatda ushlab turishga harakat qiladi. Bu yerda   <InlineMath math={`G`} /> - оg’irlik kuchi,      <InlineMath math={`N`} /> – tekislikning nоrmal reaksiya kuchi (3.13b – shakl).
                     </p>
 
-                  
-                    
+
+
 
                     <p className="mb-4">
                         Agar yuk muvоzanatni buzadigan qiymatga yetmagan bo’lsa, quyidagi muvоzanat tenglamalari o’rinli bo’ladi.
@@ -182,13 +192,13 @@ const IshqalanishMuvozanat = () => {
                     <p className="mb-4">
                         (3.6) ifоdadagi tenglik belgisi ishqalanish kuchining maksimal qiymatiga to’g’ri keladi. Demak, bizga оldindan jismning kritik, ya’ni shegaraviy muvоzanat hоlatida ekanligi  ma’lum  bo’lsa, ishqalanish kuchining qiymati  (3.5)  tenglikdan aniqlanadi: Tajribalarning ko’rsatishicha, sirpanib ishqalanishda ba’zi jismlarning materialiga bog’liq ravishda tezlik oshsa, ishqalanish kuchi juda kichik miqdorda o’zgaradi. Bu o’zgarish juda kichik ekanligi hisobga olinib, texnik masalalarni yechishda
                         <div>
-                        <img
-                            src={image3_14}
-                            alt="Normal reaksiya kuchi diagrammasi"
-                            className="mx-auto rounded-lg shadow-lg w-full sm:w-3/4 lg:w-1/2"
-                        />
-                    </div>
-                         sirpanib ishqalanish kuchi tezlikka bog’liq emas deb qabul qilingan.
+                            <img
+                                src={image3_14}
+                                alt="Normal reaksiya kuchi diagrammasi"
+                                className="mx-auto rounded-lg shadow-lg w-full sm:w-3/4 lg:w-1/2"
+                            />
+                        </div>
+                        sirpanib ishqalanish kuchi tezlikka bog’liq emas deb qabul qilingan.
                     </p>
 
                     <h4 className="text-lg font-semibold mb-2">3.5-masala.</h4>

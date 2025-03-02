@@ -3,6 +3,7 @@ import { BlockMath, InlineMath } from "react-katex";
 import "katex/dist/katex.min.css";
 import image1 from '../../assets/image1.png';
 import Navbar from "../Navbar";
+import qr from '../../assets/qrcode/lesson1qr.png'
 
 function Bir_KuchKuchlarsistemasiTengsiretuvchikuch() {
     return (
@@ -13,6 +14,15 @@ function Bir_KuchKuchlarsistemasiTengsiretuvchikuch() {
                     <h1 className="text-2xl font-bold text-center text-blue-600 mb-6">
                         1.1–§. Kuch. Kuchlar sistemasi. Teng ta’sir etuvchi kuch.
                     </h1>
+                    <div className="text-center mb-6">
+                        <a href="https://youtu.be/U7t307DUF_8">
+                            <img
+                                src={qr}
+                                alt="Kuch ta'sir chizig'i"
+                                className="mx-auto rounded-lg shadow-lg w-48"
+                            />
+                        </a>
+                    </div>
 
                     {/* Matn bo'limi */}
                     <p className="mb-4">
@@ -88,9 +98,9 @@ function Bir_KuchKuchlarsistemasiTengsiretuvchikuch() {
                         ko’rinishda yoziladi.
                     </p>
 
-                   
+
                 </div>
-            </div>
+            </div >
         </>
     );
 }

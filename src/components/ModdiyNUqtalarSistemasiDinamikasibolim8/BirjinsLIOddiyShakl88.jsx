@@ -16,6 +16,7 @@ import image8_g from '../../assets/bolim@8image/image8_g.png';
 import image8_h from '../../assets/bolim@8image/image8_h.png';
 import image8_k from '../../assets/bolim@8image/image8_k.png';
 import image8_j from '../../assets/bolim@8image/image8_j.png';
+import qr from '../../assets/qrcode/lesson88.png'
 
 
 const BirjinsLIOddiyShakl88 = () => {
@@ -27,7 +28,16 @@ const BirjinsLIOddiyShakl88 = () => {
                     8.8 – §. Bir jinsli oddiy shaklli ba’zi jismlarning inersiya
                     momentlarini hisoblash. Masalalar
                 </h2>
+                <div className="text-center mb-6">
+                    <a href="https://youtu.be/rdmC4SMFoUo">
+                        <img
 
+                            src={qr}
+                            alt="Kuch ta'sir chizig'i"
+                            className="mx-auto rounded-lg shadow-lg w-48"
+                        />
+                    </a>
+                </div>
                 <p className="mb-4">
                     Odatda murakkab shaklli jismlarni fikran oddiy shakllarga ajratish
                     mumkin bo‘ladi. Har bir qism uchun inersiya momentlarini
@@ -460,7 +470,7 @@ I_{Oz}^M = m_M R_M^2.
                                 className="mx-auto rounded-lg shadow-lg w-[80%] sm:w-3/2 lg:w-1/2"
                             />
                         </div>
-                        <div  className="lg:mt-0 mt-6 text-center" >
+                        <div className="lg:mt-0 mt-6 text-center" >
                             <p>
                                 <InlineMath math={"I_{C_x} = \\tfrac{1}{3}M\\,b^2"} />
                             </p>
@@ -487,7 +497,7 @@ I_{Oz}^M = m_M R_M^2.
                                 className="mx-auto rounded-lg shadow-lg w-[80%] sm:w-3/2 lg:w-1/2"
                             />
                         </div>
-                        <div  className="lg:mt-0 mt-6 text-center">
+                        <div className="lg:mt-0 mt-6 text-center">
 
                             <p>
                                 <InlineMath math={"I_x = \\tfrac{1}{4}M\\,b^2"} />
@@ -515,7 +525,7 @@ I_{Oz}^M = m_M R_M^2.
                                 className="mx-auto rounded-lg shadow-lg w-[80%] sm:w-3/2 lg:w-1/2"
                             />
                         </div>
-                        <div  className="lg:mt-0 mt-6 text-center">
+                        <div className="lg:mt-0 mt-6 text-center">
 
                             <p>
                                 <InlineMath math={"I_{C_x} = \\tfrac{1}{3}M\\bigl(b^2 + c^2\\bigr)"} />
@@ -543,7 +553,7 @@ I_{Oz}^M = m_M R_M^2.
                                 className="mx-auto rounded-lg shadow-lg w-[80%] sm:w-3/2 lg:w-1/2"
                             />
                         </div>
-                        <div  className="lg:mt-0 mt-6 text-center">
+                        <div className="lg:mt-0 mt-6 text-center">
 
                             <p>
                                 <InlineMath math={"I_{C_x} = M \\cdot 2 \\cdot 0 \\cdot \\Bigl(\\tfrac{3}{4}H^2 + 4b^2\\Bigr)"} />
@@ -569,7 +579,7 @@ I_{Oz}^M = m_M R_M^2.
                                 className="mx-auto rounded-lg shadow-lg w-[80%] sm:w-3/2 lg:w-1/2"
                             />
                         </div>
-                        <div  className="lg:mt-0 mt-6 text-center">
+                        <div className="lg:mt-0 mt-6 text-center">
 
                             <p>
                                 <InlineMath math={"I_{C_x} = I_{C_y} = \\tfrac{1}{4}M\\Bigl(\\tfrac{1}{3}H^2 + R^2\\Bigr)"} />
@@ -592,7 +602,7 @@ I_{Oz}^M = m_M R_M^2.
                                 className="mx-auto rounded-lg shadow-lg w-[80%] sm:w-3/2 lg:w-1/2"
                             />
                         </div>
-                        <div  className="lg:mt-0 mt-6 text-center">
+                        <div className="lg:mt-0 mt-6 text-center">
 
                             <p>
                                 <InlineMath math={"I_{C_x} = I_{C_y} = \\tfrac{3}{20}M\\Bigl(\\tfrac{1}{4}H^2 + R^2\\Bigr)"} />
@@ -615,7 +625,7 @@ I_{Oz}^M = m_M R_M^2.
                                 className="mx-auto rounded-lg shadow-lg w-[80%] sm:w-3/2 lg:w-1/2"
                             />
                         </div>
-                        <div  className="lg:mt-0 mt-6 text-center">
+                        <div className="lg:mt-0 mt-6 text-center">
 
                             <p>
                                 <InlineMath math={"I_{C_x} = M\\cdot \\tfrac{5}{}\\bigl(b^2 + c^2\\bigr)"} />
