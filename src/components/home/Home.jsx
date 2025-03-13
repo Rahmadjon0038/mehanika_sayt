@@ -16,13 +16,13 @@ function Home() {
                         />
                         <div className="text-center space-y-4 text-white">
                             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
-                                Namangan Muhandislik Texnika Universiteti
+                                Namangan Davlat Texnika Universiteti
                             </h1>
                             <h2 className="text-xl sm:text-2xl md:text-3xl font-medium">
-                                Amaliy mexanika fani
+                                Mexanika fani
                             </h2>
                             <h3 className="text-lg sm:text-xl md:text-2xl">
-                                Ustoz Shirin Jumaboyeva
+                            Ustoz dotsent Shirin Jumaboyeva
                             </h3>
                         </div>
                     </div>
