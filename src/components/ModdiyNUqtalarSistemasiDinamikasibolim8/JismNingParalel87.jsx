@@ -98,7 +98,9 @@ I_{Oz}
                 <p className="mb-4">
                     Agar <InlineMath math={"Oz"} /> va <InlineMath math={"Cz'"} /> o‘qlar
                     orasidagi masofani <InlineMath math={"x_C^2 + y_C^2 = d^2"} /> desak
-                    hamda <InlineMath math={"\\sum m_k\\bigl(x'_k^2 + y'_k^2\\bigr) = I_{Cz'}"} />{" "}
+                    hamda 
+                    <BlockMath math={"\\sum_{k} m_k \\bigl(x'_k{}^2 + y'_k{}^2\\bigr) = I_{Cz'}"} />
+
                     ekanini hisobga olsak, formula quyidagi ko‘rinishni oladi:
                 </p>
 

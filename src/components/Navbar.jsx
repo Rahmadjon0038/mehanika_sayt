@@ -47,7 +47,7 @@ function Navbar() {
             ?.map((item) => (
               <div
                 key={item.id}
-                onClick={() => setSearchOpen(false)}
+                onClick={() => setSearchOpen(true)}
                 className="hover:bg-blue-500 p-1 rounded-sm mt-1 cursor-pointer"
               >
                 <NavLink to={item.path} className="block text-xl">
@@ -116,11 +116,13 @@ function Navbar() {
                     }`}
                 >
                   {item.name} {item.bobname}
+                  
                   <FaAngleDown />
                 </h1>
 
                 {selected === item.id && (
                   <div className="ml-6 mt-2">
+
                     {item.children?.map((lesson) => (
                       <NavLink
                         onClick={handleCancel}
