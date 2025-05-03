@@ -1,7 +1,7 @@
 export const mavzuData = [
     {
         id: 1,
-        name: "1.1-dars",
+        name: "1.1",
         mavzu: " Kuch.  Kuchlar sistemasi. Teng ta’sir etuvchi kuch.",
         path: '/Bir_KuchKuchlarsistemasiTengsiretuvchikuch'
     },
